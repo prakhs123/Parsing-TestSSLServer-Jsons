@@ -1,0 +1,337 @@
+{
+  "connectionName" : "www.lenovo.com",
+  "connectionPort" : 443,
+  "SNI" : "www.lenovo.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 132,
+        "name" : "RSA_WITH_CAMELLIA_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 65,
+        "name" : "RSA_WITH_CAMELLIA_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 150,
+        "name" : "RSA_WITH_SEED_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49170,
+        "name" : "ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 132,
+        "name" : "RSA_WITH_CAMELLIA_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 65,
+        "name" : "RSA_WITH_CAMELLIA_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 150,
+        "name" : "RSA_WITH_SEED_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49170,
+        "name" : "ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49191,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49192,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 156,
+        "name" : "RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 132,
+        "name" : "RSA_WITH_CAMELLIA_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 65,
+        "name" : "RSA_WITH_CAMELLIA_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 150,
+        "name" : "RSA_WITH_SEED_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49170,
+        "name" : "ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "AE7D7C99A7202F01862DD43973642493C288E836",
+          "decodable" : true,
+          "serialHex" : "068DE2444F8511CC2C3A20D30BAE4D4E",
+          "subject" : "CN=*.lenovo.com,OU=Technology,O=Lenovo (United States) Inc,L=Morrisville,ST=North Carolina,C=US",
+          "issuer" : "CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "validFrom" : "2015-09-10 00:00:00 UTC",
+          "validTo" : "2018-10-10 12:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "*.lenovo.com",
+            "lenovo.com"
+          ]
+        },
+        {
+          "thumbprint" : "A031C46782E6E6C662C2C87C76DA9AA62CCABD8E",
+          "decodable" : true,
+          "serialHex" : "04E1E7A4DC5CF2F36DC02B42B85D159F",
+          "subject" : "CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "issuer" : "CN=DigiCert High Assurance EV Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "validFrom" : "2013-10-22 12:00:00 UTC",
+          "validTo" : "2028-10-22 12:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    }
+  ]
+}

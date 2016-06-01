@@ -1,0 +1,171 @@
+{
+  "connectionName" : "www.canarabank.in",
+  "connectionPort" : 443,
+  "SNI" : "www.canarabank.in",
+  "SSLv3" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.0" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "8878B3C33DDA3F8C94BE8A6D30644D946DE63CAB",
+          "decodable" : true,
+          "serialHex" : "0D9FAC4505ABCB9F0DF456330923BA80",
+          "subject" : "CN=www.canarabank.in,O=Canara Bank,L=Bengaluru,ST=Karnataka,C=IN,2.5.4.5=#1311476F7665726E6D656E7420456E74697479,2.5.4.15=#1311476F7665726E6D656E7420456E74697479,1.3.6.1.4.1.311.60.2.1.3=#1302494E",
+          "issuer" : "CN=GeoTrust EV SSL CA - G4,O=GeoTrust Inc.,C=US",
+          "validFrom" : "2015-12-23 00:00:00 UTC",
+          "validTo" : "2017-12-18 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "login.canarabank.in",
+            "www.canarabank.in",
+            "canarabank.in"
+          ]
+        },
+        {
+          "thumbprint" : "3056B343485B9D55F3E2B177A895BB0463EE3EFD",
+          "decodable" : true,
+          "serialHex" : "6E8A90EBCFF0448A720D0805D082A544",
+          "subject" : "CN=GeoTrust EV SSL CA - G4,O=GeoTrust Inc.,C=US",
+          "issuer" : "CN=GeoTrust Primary Certification Authority,O=GeoTrust Inc.,C=US",
+          "validFrom" : "2013-10-31 00:00:00 UTC",
+          "validTo" : "2023-10-30 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2016-05-29 11:31:31 UTC",
+  "serverTimeOffsetMillis" : -62766,
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    },
+    {
+      "name" : "secp384r1 (P-384)",
+      "size" : 384,
+      "spontaneous" : false
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS005",
+      "text" : "Server supports RC4."
+    },
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "PV003",
+      "text" : "Server supports SSL 3.0."
+    }
+  ]
+}

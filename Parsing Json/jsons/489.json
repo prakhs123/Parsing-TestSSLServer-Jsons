@@ -1,0 +1,513 @@
+{
+  "connectionName" : "www.messenger.com",
+  "connectionPort" : 443,
+  "SNI" : "www.messenger.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49161,
+        "name" : "ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49162,
+        "name" : "ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49160,
+        "name" : "ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49170,
+        "name" : "ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49159,
+        "name" : "ECDHE_ECDSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49169,
+        "name" : "ECDHE_RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49161,
+        "name" : "ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49162,
+        "name" : "ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49160,
+        "name" : "ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49170,
+        "name" : "ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49159,
+        "name" : "ECDHE_ECDSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49169,
+        "name" : "ECDHE_RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 156,
+        "name" : "RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 157,
+        "name" : "RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49159,
+        "name" : "ECDHE_ECDSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49160,
+        "name" : "ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49161,
+        "name" : "ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49162,
+        "name" : "ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49169,
+        "name" : "ECDHE_RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49170,
+        "name" : "ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49195,
+        "name" : "ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49196,
+        "name" : "ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-1"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "BB99476A7204F92CE2A573EDFF12C437A1C8EA54",
+          "decodable" : true,
+          "serialHex" : "0E743E11AAED3DB037E1556F286C3FE1",
+          "subject" : "CN=*.facebook.com,O=Facebook\\, Inc.,L=Menlo Park,ST=CA,C=US",
+          "issuer" : "CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "validFrom" : "2015-04-10 00:00:00 UTC",
+          "validTo" : "2016-12-30 12:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-1",
+          "selfIssued" : false,
+          "serverNames" : [
+            "*.facebook.com",
+            "*.facebook.net",
+            "*.fb.com",
+            "*.fbcdn.net",
+            "*.fbsbx.com",
+            "*.m.facebook.com",
+            "*.messenger.com",
+            "*.xx.fbcdn.net",
+            "*.xy.fbcdn.net",
+            "*.xz.fbcdn.net",
+            "facebook.com",
+            "fb.com",
+            "messenger.com"
+          ]
+        },
+        {
+          "thumbprint" : "42857855FB0EA43F54C9911E30E7791D8CE82705",
+          "decodable" : true,
+          "serialHex" : "0A5F114D035B179117D2EFD4038C3F3B",
+          "subject" : "CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "issuer" : "CN=DigiCert High Assurance EV Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "validFrom" : "2008-04-02 12:00:00 UTC",
+          "validTo" : "2022-04-03 00:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-1",
+          "selfIssued" : false
+        }
+      ]
+    },
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-1"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "867CB2939487878A6E4DB25236AC92AA76F09DE3",
+          "decodable" : true,
+          "serialHex" : "08E4634BCB04FFBD670676D93BF06486",
+          "subject" : "CN=*.facebook.com,O=Facebook\\, Inc.,L=Menlo Park,ST=CA,C=US",
+          "issuer" : "CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "validFrom" : "2014-08-28 00:00:00 UTC",
+          "validTo" : "2016-12-30 12:00:00 UTC",
+          "keyType" : "EC",
+          "keySize" : 256,
+          "keyCurve" : "ansix9p256r1 (P-256)",
+          "signHash" : "SHA-1",
+          "selfIssued" : false,
+          "serverNames" : [
+            "*.facebook.com",
+            "*.facebook.net",
+            "*.fb.com",
+            "*.fbcdn.net",
+            "*.fbsbx.com",
+            "*.m.facebook.com",
+            "*.messenger.com",
+            "*.xx.fbcdn.net",
+            "*.xy.fbcdn.net",
+            "*.xz.fbcdn.net",
+            "facebook.com",
+            "fb.com",
+            "messenger.com"
+          ]
+        },
+        {
+          "thumbprint" : "42857855FB0EA43F54C9911E30E7791D8CE82705",
+          "decodable" : true,
+          "serialHex" : "0A5F114D035B179117D2EFD4038C3F3B",
+          "subject" : "CN=DigiCert High Assurance CA-3,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "issuer" : "CN=DigiCert High Assurance EV Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "validFrom" : "2008-04-02 12:00:00 UTC",
+          "validTo" : "2022-04-03 00:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-1",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS005",
+      "text" : "Server supports RC4."
+    },
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "XC001",
+      "text" : "Server certificate was signed with a weak/deprecated/unknown hash function."
+    }
+  ]
+}

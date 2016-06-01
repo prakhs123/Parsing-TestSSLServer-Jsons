@@ -1,0 +1,255 @@
+{
+  "connectionName" : "www.wikia.com",
+  "connectionPort" : 443,
+  "SNI" : "www.wikia.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49191,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49192,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 156,
+        "name" : "RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "D76140A1D5F2853DA7D1CBFED5495F78B171A2E9",
+          "decodable" : true,
+          "serialHex" : "1121D46B282F032CD5708EFB19442222D93D",
+          "subject" : "CN=*.wikia-services.com,O=Wikia\\, Inc.,L=San Francisco,ST=California,C=US",
+          "issuer" : "CN=GlobalSign Organization Validation CA - SHA256 - G2,O=GlobalSign nv-sa,C=BE",
+          "validFrom" : "2016-02-25 16:10:37 UTC",
+          "validTo" : "2017-02-27 15:52:56 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "*.wikia-services.com",
+            "wikia.com",
+            "wikia-inc.com",
+            "wikia-dev.com",
+            "*.wikia.nocookie.net",
+            "*.nocookie.net",
+            "*.wikia-inc.com",
+            "*.wikia.com",
+            "*.wikia-dev.com",
+            "*.wikia-staging.com",
+            "*.wikia-dev.pl",
+            "wikia-staging.com",
+            "wikia-dev.pl",
+            "*.wikiafanstudio.com",
+            "wikiafanstudio.com",
+            "wikia-services.com"
+          ]
+        },
+        {
+          "thumbprint" : "902EF2DEEB3C5B13EA4C3D5193629309E231AE55",
+          "decodable" : true,
+          "serialHex" : "040000000001444EF04247",
+          "subject" : "CN=GlobalSign Organization Validation CA - SHA256 - G2,O=GlobalSign nv-sa,C=BE",
+          "issuer" : "CN=GlobalSign Root CA,OU=Root CA,O=GlobalSign nv-sa,C=BE",
+          "validFrom" : "2014-02-20 10:00:00 UTC",
+          "validTo" : "2024-02-20 10:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "connectionName" : "www.bankbazaar.com",
+  "connectionPort" : 443,
+  "SNI" : "www.bankbazaar.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49170,
+        "name" : "ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49170,
+        "name" : "ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49191,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 156,
+        "name" : "RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 60,
+        "name" : "RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49192,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 157,
+        "name" : "RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 61,
+        "name" : "RSA_WITH_AES_256_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49170,
+        "name" : "ECDHE_RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "5A563CBFF370EB3B4F079211958FB95ECFDAED3C",
+          "decodable" : true,
+          "serialHex" : "6D2B56838BF4E4034F48C6A873CEF9EC",
+          "subject" : "CN=www.bankbazaar.com,O=A&A DUKAAN FINANCIAL SERVICES PRIVATE LIMITED,L=Chennai,ST=Tamil Nadu,C=IN",
+          "issuer" : "CN=Symantec Class 3 Secure Server CA - G4,OU=Symantec Trust Network,O=Symantec Corporation,C=US",
+          "validFrom" : "2015-02-05 00:00:00 UTC",
+          "validTo" : "2017-03-06 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "www.bankbazaar.com"
+          ]
+        },
+        {
+          "thumbprint" : "FF67367C5CD4DE4AE18BCCE1D70FDABD7C866135",
+          "decodable" : true,
+          "serialHex" : "513FB9743870B73440418D30930699FF",
+          "subject" : "CN=Symantec Class 3 Secure Server CA - G4,OU=Symantec Trust Network,O=Symantec Corporation,C=US",
+          "issuer" : "CN=VeriSign Class 3 Public Primary Certification Authority - G5,OU=(c) 2006 VeriSign\\, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign\\, Inc.,C=US",
+          "validFrom" : "2013-10-31 00:00:00 UTC",
+          "validTo" : "2023-10-30 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    }
+  ]
+}

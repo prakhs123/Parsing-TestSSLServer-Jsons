@@ -1,0 +1,426 @@
+{
+  "connectionName" : "www.blogger.com",
+  "connectionPort" : 443,
+  "SNI" : "www.blogger.com",
+  "SSLv3" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49169,
+        "name" : "ECDHE_RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49169,
+        "name" : "ECDHE_RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "complex",
+    "suites" : [
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 60,
+        "name" : "RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 61,
+        "name" : "RSA_WITH_AES_256_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 156,
+        "name" : "RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 157,
+        "name" : "RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49169,
+        "name" : "ECDHE_RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49191,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49192,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 52243,
+        "name" : "ECDHE_RSA_WITH_CHACHA20_POLY1305_OLD",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 52392,
+        "name" : "ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 3,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-1",
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "32EAA2486484771220DA63D45F58F2290E0B7032",
+          "decodable" : true,
+          "serialHex" : "3331A1758E90DA23",
+          "subject" : "CN=*.blogger.com,O=Google Inc,L=Mountain View,ST=California,C=US",
+          "issuer" : "CN=Google Internet Authority G2,O=Google Inc,C=US",
+          "validFrom" : "2016-04-07 09:09:57 UTC",
+          "validTo" : "2016-06-30 08:20:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "*.blogger.com",
+            "*.blogblog.com",
+            "blogblog.com",
+            "blogger.com"
+          ]
+        },
+        {
+          "thumbprint" : "178F7E93A74ED73D88C29042220B9AE6E4B371CD",
+          "decodable" : true,
+          "serialHex" : "023A83",
+          "subject" : "CN=Google Internet Authority G2,O=Google Inc,C=US",
+          "issuer" : "CN=GeoTrust Global CA,O=GeoTrust Inc.,C=US",
+          "validFrom" : "2013-04-05 15:15:56 UTC",
+          "validTo" : "2016-12-31 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        },
+        {
+          "thumbprint" : "7359755C6DF9A0ABC3060BCE369564C8EC4542A3",
+          "decodable" : true,
+          "serialHex" : "12BBE6",
+          "subject" : "CN=GeoTrust Global CA,O=GeoTrust Inc.,C=US",
+          "issuer" : "OU=Equifax Secure Certificate Authority,O=Equifax,C=US",
+          "validFrom" : "2002-05-21 04:00:00 UTC",
+          "validTo" : "2018-08-21 04:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-1",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2016-04-23 18:38:40 UTC",
+  "serverTimeOffsetMillis" : -12507,
+  "secureRenegotiation" : true,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : false
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS005",
+      "text" : "Server supports RC4."
+    },
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "PV003",
+      "text" : "Server supports SSL 3.0."
+    },
+    {
+      "id" : "XC001",
+      "text" : "Server certificate was signed with a weak/deprecated/unknown hash function."
+    }
+  ]
+}

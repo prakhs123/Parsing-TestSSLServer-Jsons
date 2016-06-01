@@ -1,0 +1,176 @@
+{
+  "connectionName" : "www.bitly.com",
+  "connectionPort" : 443,
+  "SNI" : "www.bitly.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "29AADB3673CABC1678884F5A02F7371CD65469EF",
+          "decodable" : true,
+          "serialHex" : "0D57F512B09982A514353B083F5F401E",
+          "subject" : "CN=bit.ly,O=bitly\\, Inc.,L=New York,ST=New York,C=US",
+          "issuer" : "CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "validFrom" : "2015-04-07 00:00:00 UTC",
+          "validTo" : "2017-06-28 12:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "bit.ly",
+            "www.bit.ly"
+          ]
+        },
+        {
+          "thumbprint" : "A031C46782E6E6C662C2C87C76DA9AA62CCABD8E",
+          "decodable" : true,
+          "serialHex" : "04E1E7A4DC5CF2F36DC02B42B85D159F",
+          "subject" : "CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "issuer" : "CN=DigiCert High Assurance EV Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "validFrom" : "2013-10-22 12:00:00 UTC",
+          "validTo" : "2028-10-22 12:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : false,
+  "warnings" : [
+    {
+      "id" : "CS005",
+      "text" : "Server supports RC4."
+    },
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "RN001",
+      "text" : "Server does not support secure renegotiation."
+    }
+  ]
+}

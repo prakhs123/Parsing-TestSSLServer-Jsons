@@ -1,0 +1,368 @@
+{
+  "connectionName" : "www.buzzfeed.com",
+  "connectionPort" : 443,
+  "SNI" : "www.buzzfeed.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49191,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49192,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 156,
+        "name" : "RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "5523207728D2BD1282A5D1DB214CD31B985B1FE5",
+          "decodable" : true,
+          "serialHex" : "0D6BDB0E481934DF4B1B38DC",
+          "subject" : "CN=p.ssl.fastly.net,O=Fastly\\, Inc.,L=San Francisco,ST=California,C=US",
+          "issuer" : "CN=GlobalSign CloudSSL CA - SHA256 - G3,O=GlobalSign nv-sa,C=BE",
+          "validFrom" : "2016-04-14 22:15:11 UTC",
+          "validTo" : "2018-12-28 14:41:49 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "p.ssl.fastly.net",
+            "*.blastworksinc.com",
+            "*.borrowedandblue.com",
+            "*.brave.com",
+            "*.browserfeatures.io",
+            "*.buzzfed.com",
+            "*.buzzfeed.com",
+            "*.cmcdn.net",
+            "*.contagiousmedia.com",
+            "*.corebine.com",
+            "*.corednacdn.com",
+            "*.donorschoose.net",
+            "*.donorschoose.org",
+            "*.evercore.org",
+            "*.experiencepoint.com",
+            "*.fastco.news",
+            "*.foxtons.co.uk",
+            "*.freitag.ch",
+            "*.gadventures.ch",
+            "*.gadventures.de",
+            "*.ggcircuit.com",
+            "*.habitat.sh",
+            "*.i.thechive.com",
+            "*.kendrascott.com",
+            "*.knect365.com",
+            "*.lulus.com",
+            "*.mediavine.com",
+            "*.mos.org",
+            "*.myraffleshotels.com",
+            "*.netzwelt.de",
+            "*.onceit.co.nz",
+            "*.perfectlyposh.com",
+            "*.racingpost.com",
+            "*.raffles.com",
+            "*.relaymedia.com",
+            "*.rex.is",
+            "*.robbreport.com",
+            "*.salesforceiq.com",
+            "*.shave.io",
+            "*.shiftpreview.com",
+            "*.sonar.digitalocean.com",
+            "*.soubarato.io",
+            "*.thegrommet.com",
+            "*.unsplash.com",
+            "*.velpic.com",
+            "*.vidyard.com",
+            "1stdibs.com",
+            "48544d4c5.adready.com",
+            "ad.tagdelivery.com",
+            "amp.cnn.com",
+            "api.ci.crwd.mx",
+            "api.crwd.mx",
+            "api.pdflayer.com",
+            "api.performance.crwd.mx",
+            "api.qa.crwd.mx",
+            "api.shiftcommerce.com",
+            "api.staging.crwd.mx",
+            "api.tictail.com",
+            "app.hiresuccess.com",
+            "bestpractices.coreinfrastructure.org",
+            "beta.sciencelearn.org.nz",
+            "bloximages.chicago2.vip.townnews.com",
+            "bloximages.newyork1.vip.townnews.com",
+            "brave.com",
+            "bundler.io",
+            "buzzfed.com",
+            "buzzfeed.com",
+            "cdn-promote.weebly.com",
+            "cdn.spaces.hightail.com",
+            "community.sumologic.com",
+            "contagiousmedia.com",
+            "content-promote.weebly.com",
+            "corebine.com",
+            "data-staging.ripple.com",
+            "data.ripple.com",
+            "eightiesyourself.cnn.com",
+            "fastco.news",
+            "hcdn.fullscreen.com",
+            "hexdocs.pm",
+            "hypebeast.com",
+            "integrations.bluecore.com",
+            "jauntvr.com",
+            "kendrascott.com",
+            "knect365.com",
+            "kyoto.travel",
+            "live.amano.io",
+            "master.bestpractices.coreinfrastructure.org",
+            "media.ci.crwd.mx",
+            "media.consumeraffairs.com",
+            "media.crwd.mx",
+            "media.performance.crwd.mx",
+            "media.qa.crwd.mx",
+            "media.staging.crwd.mx",
+            "mediavine.com",
+            "mos.org",
+            "my.freshbooks.com",
+            "onceit.co.nz",
+            "preview.jauntvr.com",
+            "rex.is",
+            "schoologynext.com",
+            "seoghoer-fastly-production.shape.dk",
+            "shave.io",
+            "staging.bestpractices.coreinfrastructure.org",
+            "staging.lightingdirect.com",
+            "static.parastorage.com",
+            "success.tanaza.com",
+            "thegrommet.com",
+            "unsplash.com",
+            "wheel.video",
+            "widget.perfectmarket.com",
+            "www-dev.jauntvr.net",
+            "www-staging.jauntvr.net",
+            "www.astoundgroup.com",
+            "www.bundler.io",
+            "www.codeaurora.org",
+            "www.franceandson.com",
+            "www.fsa.go.jp",
+            "www.hcdn.fullscreen.com",
+            "www.hiresuccess.com",
+            "www.jauntvr.com",
+            "www.jurists.co.jp",
+            "www.msgsafe.io",
+            "www.pinalove.com",
+            "www.schoologynext.com",
+            "www.thaifriendly.com",
+            "www.wada-ama.org",
+            "wwwnew.linux.com",
+            "zensaskincare.com",
+            "zueriost.ch"
+          ]
+        },
+        {
+          "thumbprint" : "B418B32DB3B8CF9FDFA19CC31216852FCC8286E3",
+          "decodable" : true,
+          "serialHex" : "46F08CDBCF2C5466EF3301DD5F34",
+          "subject" : "CN=GlobalSign CloudSSL CA - SHA256 - G3,O=GlobalSign nv-sa,C=BE",
+          "issuer" : "CN=GlobalSign Root CA,OU=Root CA,O=GlobalSign nv-sa,C=BE",
+          "validFrom" : "2015-08-19 00:00:00 UTC",
+          "validTo" : "2025-08-19 00:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    }
+  ]
+}

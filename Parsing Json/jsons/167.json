@@ -1,0 +1,145 @@
+{
+  "connectionName" : "www.vodafone.in",
+  "connectionPort" : 443,
+  "SNI" : "www.vodafone.in",
+  "TLSv1.0" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 4,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : true,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "672373C0AE07146ACBD07593E67DDFD94972D9FD",
+          "decodable" : true,
+          "serialHex" : "41E3C177A44F922CACB6D651C20ED967BA094428",
+          "subject" : "CN=www.vodafone.in,O=Vodafone Group Services Limited,L=Newbury,ST=BERKSHIRE,C=GB,2.5.4.5=#130733383032303031,1.3.6.1.4.1.311.60.2.1.3=#13024742,2.5.4.15=#131256312E342C20436C6175736520382E352E32",
+          "issuer" : "CN=Verizon Public SureServer EV SSL CA G14-SHA2,OU=Cybertrust,O=Verizon Enterprise Solutions,L=Amsterdam,C=NL",
+          "validFrom" : "2016-01-06 08:06:47 UTC",
+          "validTo" : "2018-01-06 08:06:45 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "www.vodafone.in"
+          ]
+        },
+        {
+          "thumbprint" : "281728BF294B032AD72266286E8A830E3797E33A",
+          "decodable" : true,
+          "serialHex" : "04000000000148E5C485CB",
+          "subject" : "CN=Verizon Public SureServer EV SSL CA G14-SHA2,OU=Cybertrust,O=Verizon Enterprise Solutions,L=Amsterdam,C=NL",
+          "issuer" : "CN=Cybertrust Global Root,O=Cybertrust\\, Inc",
+          "validFrom" : "2014-10-06 08:00:00 UTC",
+          "validTo" : "2021-10-06 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        },
+        {
+          "thumbprint" : "86E6CDE161769E01E787FBDFD58D7FC24F321AA7",
+          "decodable" : true,
+          "serialHex" : "0727A855",
+          "subject" : "CN=Cybertrust Global Root,O=Cybertrust\\, Inc",
+          "issuer" : "CN=Baltimore CyberTrust Root,OU=CyberTrust,O=Baltimore,C=IE",
+          "validFrom" : "2014-04-23 16:11:03 UTC",
+          "validTo" : "2024-04-23 16:10:56 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        },
+        {
+          "thumbprint" : "D4DE20D05E66FC53FE1A50882C78DB2852CAE474",
+          "decodable" : true,
+          "serialHex" : "020000B9",
+          "subject" : "CN=Baltimore CyberTrust Root,OU=CyberTrust,O=Baltimore,C=IE",
+          "issuer" : "CN=Baltimore CyberTrust Root,OU=CyberTrust,O=Baltimore,C=IE",
+          "validFrom" : "2000-05-12 18:46:00 UTC",
+          "validTo" : "2025-05-12 23:59:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-1",
+          "selfIssued" : true
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2016-04-23 22:10:22 UTC",
+  "serverTimeOffsetMillis" : 1765670,
+  "secureRenegotiation" : false,
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "RN001",
+      "text" : "Server does not support secure renegotiation."
+    }
+  ]
+}

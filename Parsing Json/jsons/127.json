@@ -1,0 +1,162 @@
+{
+  "connectionName" : "www.freejobalert.com",
+  "connectionPort" : 443,
+  "SNI" : "www.freejobalert.com",
+  "SSLv3" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.0" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 9,
+        "name" : "RSA_WITH_DES_CBC_SHA",
+        "strength" : 2,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 21,
+        "name" : "DHE_RSA_WITH_DES_CBC_SHA",
+        "strength" : 2,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 22,
+        "name" : "DHE_RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 51,
+        "name" : "DHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 57,
+        "name" : "DHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 1,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : true,
+      "signHashes" : [
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "F0832F5EAF33D695C759649B7F7C74E3FFC54549",
+          "decodable" : true,
+          "serialHex" : "A5FC279BB1EFC6A9",
+          "subject" : "CN=freejobalert.com,O=FreeJobAlert.com,L=Newbury,ST=Arizona,C=US",
+          "issuer" : "CN=freejobalert.com,O=FreeJobAlert.com,L=Newbury,ST=Arizona,C=US",
+          "validFrom" : "2013-01-15 21:08:45 UTC",
+          "validTo" : "2015-10-11 21:08:45 UTC",
+          "keyType" : "RSA",
+          "keySize" : 1024,
+          "signHash" : "SHA-1",
+          "selfIssued" : true,
+          "serverNames" : [
+            "freejobalert.com"
+          ]
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : true,
+  "serverTime" : "2016-04-23 20:50:49 UTC",
+  "serverTimeOffsetMillis" : -12598,
+  "secureRenegotiation" : true,
+  "minDHSize" : 1024,
+  "warnings" : [
+    {
+      "id" : "CP001",
+      "text" : "Server supports compression."
+    },
+    {
+      "id" : "CS003",
+      "text" : "Server supports weak cipher suites (56 bits)."
+    },
+    {
+      "id" : "CS005",
+      "text" : "Server supports RC4."
+    },
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "PV003",
+      "text" : "Server supports SSL 3.0."
+    },
+    {
+      "id" : "SK002",
+      "text" : "Server uses DH parameters smaller than 2048 bits."
+    }
+  ]
+}

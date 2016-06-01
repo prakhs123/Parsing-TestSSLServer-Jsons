@@ -1,0 +1,408 @@
+{
+  "connectionName" : "www.ebay.com",
+  "connectionPort" : 443,
+  "SNI" : "www.ebay.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 7,
+        "name" : "RSA_WITH_IDEA_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 9,
+        "name" : "RSA_WITH_DES_CBC_SHA",
+        "strength" : 2,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 7,
+        "name" : "RSA_WITH_IDEA_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 9,
+        "name" : "RSA_WITH_DES_CBC_SHA",
+        "strength" : 2,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49192,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49191,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 7,
+        "name" : "RSA_WITH_IDEA_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 9,
+        "name" : "RSA_WITH_DES_CBC_SHA",
+        "strength" : 2,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "9002747673F15DE63EF108E6CD22DB406F437370",
+          "decodable" : true,
+          "serialHex" : "383893A1BD6C906C6B43AAB77EE4E24C",
+          "subject" : "CN=www.ebay.com,OU=Site Operations san1-v5,O=eBay\\, Inc.,L=San Jose,ST=California,C=US",
+          "issuer" : "CN=Symantec Class 3 Secure Server CA - G4,OU=Symantec Trust Network,O=Symantec Corporation,C=US",
+          "validFrom" : "2015-10-27 00:00:00 UTC",
+          "validTo" : "2017-10-27 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "www.ebayprivacycenter.com",
+            "www.ebay.com",
+            "svcs.ebay.com",
+            "static.tradera.net",
+            "static.ebay.com.au",
+            "ssl-i.ebayimg.ebay.in",
+            "ssl-i.ebayimg.com",
+            "srwsvcs.ebay.com",
+            "srv.uk.ebayrtm.com",
+            "srv.main.ebayrtm.com",
+            "srv.it.ebayrtm.com",
+            "srv.in.ebayrtm.com",
+            "srv.fr.ebayrtm.com",
+            "srv.de.ebayrtm.com",
+            "srv.au.ebayrtm.com",
+            "sofe.express.ebay.com",
+            "sofe.ebay.it",
+            "sofe.ebay.in",
+            "sofe.ebay.fr",
+            "sofe.ebay.de",
+            "sofe.ebay.com.au",
+            "sofe.ebay.com",
+            "sofe.ebay.co.uk",
+            "sofe.ebay.at",
+            "shippingtool.ebay.cn",
+            "securertm.ebaystatic.com",
+            "securepics.ebaystatic.com",
+            "secureir.sandbox.ebaystatic.com",
+            "secureir.ebaystatic.com",
+            "secureinclude.ebaystatic.com",
+            "rover.ebay.it",
+            "rover.ebay.in",
+            "rover.ebay.fr",
+            "rover.ebay.de",
+            "rover.ebay.com.au",
+            "rover.ebay.com",
+            "rover.ebay.co.uk",
+            "res.mobileweb.ebay.com",
+            "m.ebay.it",
+            "m.ebay.fr",
+            "m.ebay.de",
+            "m.ebay.com.au",
+            "m.ebay.com",
+            "m.ebay.co.uk",
+            "info.ebayinc.com",
+            "img.tradera.net",
+            "images.static.ebay.com.au",
+            "image.edpn.ebay.com",
+            "gh.ebaystatic.com",
+            "fundinginstrument.ebay.de",
+            "donationsstatic.ebay.com",
+            "cdn.tradera.net",
+            "cdn.ebaymainstreet.com",
+            "apacshippingtool.ebay.com",
+            "apacshipping.ebay.com.hk",
+            "anywhere.ebay.pl",
+            "anywhere.ebay.nl",
+            "anywhere.ebay.it",
+            "anywhere.ebay.in",
+            "anywhere.ebay.ie",
+            "anywhere.ebay.es",
+            "anywhere.ebay.com.sg",
+            "anywhere.ebay.com.hk",
+            "anywhere.ebay.com",
+            "anywhere.ebay.ch",
+            "anywhere.ebay.ca",
+            "anywhere.ebay.be",
+            "anywhere.ebay.at",
+            "5.securethumbs.ebaystatic.com",
+            "4.securethumbs.ebaystatic.com",
+            "3.securethumbs.ebaystatic.com",
+            "2.securethumbs.ebaystatic.com",
+            "1.securethumbs.ebaystatic.com"
+          ]
+        },
+        {
+          "thumbprint" : "FF67367C5CD4DE4AE18BCCE1D70FDABD7C866135",
+          "decodable" : true,
+          "serialHex" : "513FB9743870B73440418D30930699FF",
+          "subject" : "CN=Symantec Class 3 Secure Server CA - G4,OU=Symantec Trust Network,O=Symantec Corporation,C=US",
+          "issuer" : "CN=VeriSign Class 3 Public Primary Certification Authority - G5,OU=(c) 2006 VeriSign\\, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign\\, Inc.,C=US",
+          "validFrom" : "2013-10-31 00:00:00 UTC",
+          "validTo" : "2023-10-30 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS003",
+      "text" : "Server supports weak cipher suites (56 bits)."
+    },
+    {
+      "id" : "CS005",
+      "text" : "Server supports RC4."
+    },
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    }
+  ]
+}

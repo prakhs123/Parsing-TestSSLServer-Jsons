@@ -1,0 +1,329 @@
+{
+  "connectionName" : "www.filehippo.com",
+  "connectionPort" : 443,
+  "SNI" : "www.filehippo.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49191,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49192,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 156,
+        "name" : "RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "835B2720617A44641C3E5F8323CD1F6F5EA9DCC7",
+          "decodable" : true,
+          "serialHex" : "045C0DDC8818593C3E51CD2069622507",
+          "subject" : "CN=a.ssl.fastly.net,O=Fastly\\, Inc.,L=San Francisco,ST=California,C=US",
+          "issuer" : "CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "validFrom" : "2014-12-08 00:00:00 UTC",
+          "validTo" : "2018-02-06 12:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "a.ssl.fastly.net",
+            "*.a.ssl.fastly.net",
+            "fast.wistia.com",
+            "purge.fastly.net",
+            "mirrors.fastly.net",
+            "*.parsecdn.com",
+            "*.fastssl.net",
+            "voxer.com",
+            "www.voxer.com",
+            "*.firebase.com",
+            "sites.yammer.com",
+            "sites.staging.yammer.com",
+            "*.skimlinks.com",
+            "*.skimresources.com",
+            "cdn.thinglink.me",
+            "*.fitbit.com",
+            "*.hosts.fastly.net",
+            "control.fastly.net",
+            "*.wikia-inc.com",
+            "*.perfectaudience.com",
+            "*.wikia.com",
+            "f.cloud.github.com",
+            "*.digitalscirocco.net",
+            "*.etsy.com",
+            "*.etsystatic.com",
+            "*.addthis.com",
+            "*.addthiscdn.com",
+            "fast.wistia.net",
+            "raw.github.com",
+            "www.userfox.com",
+            "*.assets-yammer.com",
+            "*.staging.assets-yammer.com",
+            "assets.huggies-cdn.net",
+            "orbit.shazamid.com",
+            "about.jstor.org",
+            "*.global.ssl.fastly.net",
+            "web.voxer.com",
+            "pypi.python.org",
+            "*.12wbt.com",
+            "www.holderdeord.no",
+            "secured.indn.infolinks.com",
+            "play.vidyard.com",
+            "play-staging.vidyard.com",
+            "secure.img.wfrcdn.com",
+            "secure.img.josscdn.com",
+            "*.gocardless.com",
+            "widgets.pinterest.com",
+            "*.7digital.com",
+            "*.7static.com",
+            "p.datadoghq.com",
+            "new.mulberry.com",
+            "www.safariflow.com",
+            "cdn.contentful.com",
+            "tools.fastly.net",
+            "*.huevosbuenos.com",
+            "*.goodeggs.com",
+            "*.fastly.picmonkey.com",
+            "*.cdn.whipplehill.net",
+            "*.whipplehill.net",
+            "cdn.media34.whipplehill.net",
+            "cdn.media56.whipplehill.net",
+            "cdn.media78.whipplehill.net",
+            "cdn.media910.whipplehill.net",
+            "*.modcloth.com",
+            "*.disquscdn.com",
+            "*.jstor.org",
+            "*.dreamhost.com",
+            "www.flinto.com",
+            "*.chartbeat.com",
+            "*.hipmunk.com",
+            "content.beaverbrooks.co.uk",
+            "secure.common.csnstores.com",
+            "*.vsco.co",
+            "www.joinos.com",
+            "staging-mobile-collector.newrelic.com",
+            "*.modcloth.net",
+            "*.foursquare.com",
+            "*.shazam.com",
+            "*.4sqi.net",
+            "*.metacpan.org",
+            "*.fastly.com",
+            "wikia.com",
+            "fastly.com",
+            "*.gadventures.com",
+            "www.gadventures.com.au",
+            "www.gadventures.co.uk",
+            "kredo.com",
+            "cdn-tags.brainient.com",
+            "my.billspringapp.com",
+            "rvm.io"
+          ]
+        },
+        {
+          "thumbprint" : "A031C46782E6E6C662C2C87C76DA9AA62CCABD8E",
+          "decodable" : true,
+          "serialHex" : "04E1E7A4DC5CF2F36DC02B42B85D159F",
+          "subject" : "CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "issuer" : "CN=DigiCert High Assurance EV Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "validFrom" : "2013-10-22 12:00:00 UTC",
+          "validTo" : "2028-10-22 12:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    }
+  ]
+}

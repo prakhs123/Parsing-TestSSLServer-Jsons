@@ -1,0 +1,211 @@
+{
+  "connectionName" : "www.onlinemoviewatchs.com",
+  "connectionPort" : 443,
+  "SNI" : "www.onlinemoviewatchs.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49161,
+        "name" : "ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49162,
+        "name" : "ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49160,
+        "name" : "ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49161,
+        "name" : "ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49162,
+        "name" : "ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49160,
+        "name" : "ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49195,
+        "name" : "ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49187,
+        "name" : "ECDHE_ECDSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49161,
+        "name" : "ECDHE_ECDSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49196,
+        "name" : "ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49188,
+        "name" : "ECDHE_ECDSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49162,
+        "name" : "ECDHE_ECDSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      },
+      {
+        "id" : 49160,
+        "name" : "ECDHE_ECDSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "EC"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 3,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256",
+        "SHA-384"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "B24553CE77584C832FE7EBF89373691299E0F0C3",
+          "decodable" : true,
+          "serialHex" : "50DA8DD9FE71BB70A149525C2BC6670C",
+          "subject" : "CN=sni141349.cloudflaressl.com,OU=PositiveSSL Multi-Domain,OU=Domain Control Validated",
+          "issuer" : "CN=COMODO ECC Domain Validation Secure Server CA 2,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+          "validFrom" : "2016-03-26 00:00:00 UTC",
+          "validTo" : "2016-10-02 23:59:59 UTC",
+          "keyType" : "EC",
+          "keySize" : 256,
+          "keyCurve" : "ansix9p256r1 (P-256)",
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "sni141349.cloudflaressl.com",
+            "*.internetheroes.eu",
+            "*.kayshomecareservices.co.za",
+            "*.locationmaisoncorse.fr",
+            "*.lookgood.fi",
+            "*.onlinemoviewatchs.co",
+            "*.onlinemoviewatchs.com",
+            "*.rebeccaminto.tk",
+            "internetheroes.eu",
+            "kayshomecareservices.co.za",
+            "locationmaisoncorse.fr",
+            "lookgood.fi",
+            "onlinemoviewatchs.co",
+            "onlinemoviewatchs.com",
+            "rebeccaminto.tk"
+          ]
+        },
+        {
+          "thumbprint" : "75CFD9BC5CEFA104ECC1082D77E63392CCBA5291",
+          "decodable" : true,
+          "serialHex" : "5B25CE6907C4265566D3390C99A954AD",
+          "subject" : "CN=COMODO ECC Domain Validation Secure Server CA 2,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+          "issuer" : "CN=COMODO ECC Certification Authority,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+          "validFrom" : "2014-09-25 00:00:00 UTC",
+          "validTo" : "2029-09-24 23:59:59 UTC",
+          "keyType" : "EC",
+          "keySize" : 256,
+          "keyCurve" : "ansix9p256r1 (P-256)",
+          "signHash" : "SHA-384",
+          "selfIssued" : false
+        },
+        {
+          "thumbprint" : "AE223CBF20191B40D7FFB4EA5701B65FDC68A1CA",
+          "decodable" : true,
+          "serialHex" : "4352023FFAA8901F139FE3F4E5C1444E",
+          "subject" : "CN=COMODO ECC Certification Authority,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+          "issuer" : "CN=AddTrust External CA Root,OU=AddTrust External TTP Network,O=AddTrust AB,C=SE",
+          "validFrom" : "2000-05-30 10:48:38 UTC",
+          "validTo" : "2020-05-30 10:48:38 UTC",
+          "keyType" : "EC",
+          "keySize" : 384,
+          "keyCurve" : "ansix9p384r1 (P-384)",
+          "signHash" : "SHA-384",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+  ]
+}

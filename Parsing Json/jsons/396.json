@@ -1,0 +1,147 @@
+{
+  "connectionName" : "www.tdscpc.gov.in",
+  "connectionPort" : 443,
+  "SNI" : "www.tdscpc.gov.in",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 9,
+        "name" : "RSA_WITH_DES_CBC_SHA",
+        "strength" : 2,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 3,
+        "name" : "RSA_EXPORT_WITH_RC4_40_MD5",
+        "strength" : 1,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 8,
+        "name" : "RSA_EXPORT_WITH_DES40_CBC_SHA",
+        "strength" : 1,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "200DFCE73A8D5A2D20ACA4D30886C7BA7D6BA218",
+          "decodable" : true,
+          "serialHex" : "1DD84BA2241CDFCCD5CC11884F0EFEE5",
+          "subject" : "CN=*.tdscpc.gov.in,O=Directorate of Income Tax,L=Ghaziabad,ST=Uttar Pradesh,C=IN",
+          "issuer" : "CN=Symantec Class 3 Secure Server CA - G4,OU=Symantec Trust Network,O=Symantec Corporation,C=US",
+          "validFrom" : "2015-11-12 00:00:00 UTC",
+          "validTo" : "2019-02-10 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "*.tdscpc.gov.in",
+            "tdscpc.gov.in"
+          ]
+        },
+        {
+          "thumbprint" : "FF67367C5CD4DE4AE18BCCE1D70FDABD7C866135",
+          "decodable" : true,
+          "serialHex" : "513FB9743870B73440418D30930699FF",
+          "subject" : "CN=Symantec Class 3 Secure Server CA - G4,OU=Symantec Trust Network,O=Symantec Corporation,C=US",
+          "issuer" : "CN=VeriSign Class 3 Public Primary Certification Authority - G5,OU=(c) 2006 VeriSign\\, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign\\, Inc.,C=US",
+          "validFrom" : "2013-10-31 00:00:00 UTC",
+          "validTo" : "2023-10-30 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2016-04-24 07:43:36 UTC",
+  "serverTimeOffsetMillis" : 18051203,
+  "secureRenegotiation" : false,
+  "warnings" : [
+    {
+      "id" : "CS002",
+      "text" : "Server supports very weak cipher suites (40 bits)."
+    },
+    {
+      "id" : "CS003",
+      "text" : "Server supports weak cipher suites (56 bits)."
+    },
+    {
+      "id" : "CS005",
+      "text" : "Server supports RC4."
+    },
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "PV001",
+      "text" : "Server needs short ClientHello."
+    },
+    {
+      "id" : "RN001",
+      "text" : "Server does not support secure renegotiation."
+    }
+  ]
+}

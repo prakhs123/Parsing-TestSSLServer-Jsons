@@ -1,0 +1,312 @@
+{
+  "connectionName" : "www.scribd.com",
+  "connectionPort" : 443,
+  "SNI" : "www.scribd.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49191,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49192,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 156,
+        "name" : "RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "4F389125656ED6DF26956A6873CF588EFD36365A",
+          "decodable" : true,
+          "serialHex" : "70F9388529E836A7D97CE26E",
+          "subject" : "CN=*.c.ssl.fastly.net,O=Fastly\\, Inc.,L=San Francisco,ST=California,C=US",
+          "issuer" : "CN=GlobalSign CloudSSL CA - SHA256 - G3,O=GlobalSign nv-sa,C=BE",
+          "validFrom" : "2016-04-22 20:04:06 UTC",
+          "validTo" : "2016-10-29 21:57:12 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "*.c.ssl.fastly.net",
+            "*.1stdibs.com",
+            "*.2brightlights.info",
+            "*.acquia.com",
+            "*.articulate.com",
+            "*.aticpan.org",
+            "*.bandpage.com",
+            "*.beamly.com",
+            "*.blendle.nl",
+            "*.fastly-streams.com",
+            "*.feedmagnet.com",
+            "*.fl.yelpcdn.com",
+            "*.ibmserviceengage.com",
+            "*.innogamescdn.com",
+            "*.issuu.com",
+            "*.kickstarter.com",
+            "*.krux.com",
+            "*.krxd.net",
+            "*.listora.com",
+            "*.metrological.com",
+            "*.modeanalytics.com",
+            "*.otoycdn.net",
+            "*.planet-labs.com",
+            "*.pypa.io",
+            "*.python.org",
+            "*.room.co",
+            "*.scribd.com",
+            "*.swarmapp.com",
+            "*.theoutbound.com",
+            "*.tissuu.com",
+            "*.twobrightlights.com",
+            "*.udemy.com",
+            "*.url2png.com",
+            "*.ustream.tv",
+            "*.vhx.tv",
+            "*.x.io",
+            "a.sellpoint.net",
+            "api.keep.com",
+            "assets.trabiancdn.com",
+            "assetsw.sellpoint.net",
+            "ast1.r10.io",
+            "blendle.nl",
+            "cdn.adagility.com",
+            "cdn.brandisty.com",
+            "cdn.evbuc.com",
+            "fastly.hightailcdn.com",
+            "images.rakuten.com",
+            "img.rakuten.com",
+            "img1.r10.io",
+            "js-agent.newrelic.com",
+            "krux.com",
+            "listora.com",
+            "m.lonny.com",
+            "m.zimbio.com",
+            "modeanalytics.com",
+            "pypa.io",
+            "room.co",
+            "s.t.st",
+            "scribd.com",
+            "secure.lessthan3.com",
+            "static.qbranch.se",
+            "stream-test.svc.7digital.net",
+            "stream.svc.7digital.net",
+            "turn.com",
+            "vid.thestreet.com",
+            "www.dwin1.com",
+            "www.lonny.com",
+            "www.piriform.com",
+            "www.swedavia.com",
+            "www.swedavia.se",
+            "www.turn.com",
+            "www.zimbio.com",
+            "c.ssl.fastly.net"
+          ]
+        },
+        {
+          "thumbprint" : "B418B32DB3B8CF9FDFA19CC31216852FCC8286E3",
+          "decodable" : true,
+          "serialHex" : "46F08CDBCF2C5466EF3301DD5F34",
+          "subject" : "CN=GlobalSign CloudSSL CA - SHA256 - G3,O=GlobalSign nv-sa,C=BE",
+          "issuer" : "CN=GlobalSign Root CA,OU=Root CA,O=GlobalSign nv-sa,C=BE",
+          "validFrom" : "2015-08-19 00:00:00 UTC",
+          "validTo" : "2025-08-19 00:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    }
+  ]
+}

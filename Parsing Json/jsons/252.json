@@ -1,0 +1,174 @@
+{
+  "connectionName" : "www.rajasthan.gov.in",
+  "connectionPort" : 443,
+  "SNI" : "www.rajasthan.gov.in",
+  "SSLv3" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "C97DBF3E4E74D0C508BE2248B33DC083724DFE11",
+          "decodable" : true,
+          "serialHex" : "1DCB0731B79DC2B5CB4D5BF628E691F9",
+          "subject" : "CN=*.rajasthan.gov.in,OU=IT,O=Information Technology and Communications Department\\, Rajasthan,L=Jaipur,ST=Rajasthan,C=IN",
+          "issuer" : "CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US",
+          "validFrom" : "2015-07-24 00:00:00 UTC",
+          "validTo" : "2018-07-23 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "*.rajasthan.gov.in",
+            "rajasthan.gov.in"
+          ]
+        },
+        {
+          "thumbprint" : "5AEAEE3F7F2A9449CEBAFEEC68FDD184F20124A7",
+          "decodable" : true,
+          "serialHex" : "023A6F",
+          "subject" : "CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US",
+          "issuer" : "CN=GeoTrust Global CA,O=GeoTrust Inc.,C=US",
+          "validFrom" : "2013-11-05 21:36:50 UTC",
+          "validTo" : "2022-05-20 21:36:50 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2016-04-23 23:08:55 UTC",
+  "serverTimeOffsetMillis" : -198698,
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    },
+    {
+      "name" : "secp384r1 (P-384)",
+      "size" : 384,
+      "spontaneous" : false
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS005",
+      "text" : "Server supports RC4."
+    },
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "PV001",
+      "text" : "Server needs short ClientHello."
+    },
+    {
+      "id" : "PV003",
+      "text" : "Server supports SSL 3.0."
+    }
+  ]
+}

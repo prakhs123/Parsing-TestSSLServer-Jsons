@@ -1,0 +1,88 @@
+{
+  "connectionName" : "www.mca.gov.in",
+  "connectionPort" : 443,
+  "SNI" : "www.mca.gov.in",
+  "TLSv1.0" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 3,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : true,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "B5519CD66BC0D0F1CD83176EC1E31513ECD1AEDC",
+          "decodable" : true,
+          "serialHex" : "53384FD0",
+          "subject" : "CN=mca.gov.in,ST=Delhi,2.5.4.17=#1306313130303031,OU=CID - 4003039,O=MINISTRY OF CORPORATE AFFAIRS,C=IN",
+          "issuer" : "CN=(n)Code Solutions CA 2014,2.5.4.51=#13133330312C20474E464320496E666F746F776572,STREET=Bodakdev\\, S G Road\\, Ahmedabad,ST=Gujarat,2.5.4.17=#1306333830303534,OU=Certifying Authority,O=Gujarat Narmada Valley Fertilizers and Chemicals Limited,C=IN",
+          "validFrom" : "2015-10-23 08:01:35 UTC",
+          "validTo" : "2017-10-21 18:30:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "www.mca.gov.in",
+            "mca.gov.in"
+          ]
+        },
+        {
+          "thumbprint" : "13874BA11E76E847D916A469A290188B11C8F175",
+          "decodable" : true,
+          "serialHex" : "27AE",
+          "subject" : "CN=(n)Code Solutions CA 2014,2.5.4.51=#13133330312C20474E464320496E666F746F776572,STREET=Bodakdev\\, S G Road\\, Ahmedabad,ST=Gujarat,2.5.4.17=#1306333830303534,OU=Certifying Authority,O=Gujarat Narmada Valley Fertilizers and Chemicals Limited,C=IN",
+          "issuer" : "CN=CCA India 2014,O=India PKI,C=IN",
+          "validFrom" : "2014-03-05 10:40:08 UTC",
+          "validTo" : "2024-03-05 06:30:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        },
+        {
+          "thumbprint" : "A2B86B5A68D92819D9CE5DD6D7969A4968E11991",
+          "decodable" : true,
+          "serialHex" : "27AD",
+          "subject" : "CN=CCA India 2014,O=India PKI,C=IN",
+          "issuer" : "CN=CCA India 2014,O=India PKI,C=IN",
+          "validFrom" : "2014-03-05 10:10:49 UTC",
+          "validTo" : "2024-03-05 10:10:49 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : true
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "1970-01-01 00:00:23 UTC",
+  "serverTimeOffsetMillis" : -1461456112885,
+  "secureRenegotiation" : true,
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "PV001",
+      "text" : "Server needs short ClientHello."
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "connectionName" : "www.unionbankonline.co.in",
+  "connectionPort" : 443,
+  "SNI" : "www.unionbankonline.co.in",
+  "TLSv1.0" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 4,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : true,
+      "signHashes" : [
+        "SHA-1",
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "67BB9F5295AE37D35C6540F9B8F978CAE5EB3280",
+          "decodable" : true,
+          "serialHex" : "5DF527AF48E883335642D88EA04BE911",
+          "subject" : "CN=www.unionbankonline.co.in,O=Union Bank of India,L=Mumbai,ST=Maharashtra,C=IN,2.5.4.5=#1311476F7665726E6D656E7420456E74697479,2.5.4.15=#1311476F7665726E6D656E7420456E74697479,1.3.6.1.4.1.311.60.2.1.3=#1302494E",
+          "issuer" : "CN=Symantec Class 3 EV SSL CA - G3,OU=Symantec Trust Network,O=Symantec Corporation,C=US",
+          "validFrom" : "2016-01-22 00:00:00 UTC",
+          "validTo" : "2018-01-21 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "www.unionbankonline.co.in",
+            "unionbankonline.co.in"
+          ]
+        },
+        {
+          "thumbprint" : "E3FC0AD84F2F5A83ED6F86F567F8B14B40DCBF12",
+          "decodable" : true,
+          "serialHex" : "7EE14A6F6FEFF2D37F3FAD654D3ADAB4",
+          "subject" : "CN=Symantec Class 3 EV SSL CA - G3,OU=Symantec Trust Network,O=Symantec Corporation,C=US",
+          "issuer" : "CN=VeriSign Class 3 Public Primary Certification Authority - G5,OU=(c) 2006 VeriSign\\, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign\\, Inc.,C=US",
+          "validFrom" : "2013-10-31 00:00:00 UTC",
+          "validTo" : "2023-10-30 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        },
+        {
+          "thumbprint" : "32F30882622B87CF8856C63DB873DF0853B4DD27",
+          "decodable" : true,
+          "serialHex" : "250CE8E030612E9F2B89F7054D7CF8FD",
+          "subject" : "CN=VeriSign Class 3 Public Primary Certification Authority - G5,OU=(c) 2006 VeriSign\\, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign\\, Inc.,C=US",
+          "issuer" : "OU=Class 3 Public Primary Certification Authority,O=VeriSign\\, Inc.,C=US",
+          "validFrom" : "2006-11-08 00:00:00 UTC",
+          "validTo" : "2021-11-07 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-1",
+          "selfIssued" : false
+        },
+        {
+          "thumbprint" : "742C3192E607E424EB4549542BE1BBC53E6174E2",
+          "decodable" : true,
+          "serialHex" : "70BAE41D10D92934B638CA7B03CCBABF",
+          "subject" : "OU=Class 3 Public Primary Certification Authority,O=VeriSign\\, Inc.,C=US",
+          "issuer" : "OU=Class 3 Public Primary Certification Authority,O=VeriSign\\, Inc.,C=US",
+          "validFrom" : "1996-01-29 00:00:00 UTC",
+          "validTo" : "2028-08-01 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 1024,
+          "signHash" : "MD2",
+          "selfIssued" : true
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2016-04-24 03:42:36 UTC",
+  "serverTimeOffsetMillis" : -1355006,
+  "secureRenegotiation" : false,
+  "warnings" : [
+    {
+      "id" : "CS005",
+      "text" : "Server supports RC4."
+    },
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "RN001",
+      "text" : "Server does not support secure renegotiation."
+    },
+    {
+      "id" : "XC001",
+      "text" : "Server certificate was signed with a weak/deprecated/unknown hash function."
+    }
+  ]
+}

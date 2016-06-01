@@ -1,0 +1,192 @@
+{
+  "connectionName" : "www.bing.com",
+  "connectionPort" : 443,
+  "SNI" : "www.bing.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "48C5B103D81A83ED1D32C4AD796E9403D9D126DD",
+          "decodable" : true,
+          "serialHex" : "5A0002F65F07BF01514BB23FC200010002F65F",
+          "subject" : "CN=www.bing.com",
+          "issuer" : "CN=Microsoft IT SSL SHA2,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US",
+          "validFrom" : "2016-03-16 18:05:29 UTC",
+          "validTo" : "2018-03-16 18:05:29 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "www.bing.com",
+            "dict.bing.com.cn",
+            "*.platform.bing.com",
+            "*.bing.com",
+            "bing.com",
+            "ieonline.microsoft.com",
+            "*.windowssearch.com",
+            "cn.ieonline.microsoft.com",
+            "*.origin.bing.com",
+            "*.mm.bing.net",
+            "*.api.bing.com",
+            "ecn.dev.virtualearth.net",
+            "*.cn.bing.net",
+            "*.cn.bing.com",
+            "*.ssl.bing.com",
+            "*.appex.bing.com",
+            "*.platform.cn.bing.com",
+            "ssl-api.bing.com",
+            "ssl-api.bing.net",
+            "*.api.bing.net",
+            "www.bingsandbox.com",
+            "*.bingapis.com",
+            "bingsandbox.com",
+            "feedback.microsoft.com",
+            "feedback-int.microsoft.com",
+            "insertmedia.bing.office.net",
+            "*.r.bat.bing.com",
+            "*.dict.bing.com.cn",
+            "*.dict.bing.com",
+            "wp.m.bing.com",
+            "*.m.bing.com",
+            "global.bing.com"
+          ]
+        },
+        {
+          "thumbprint" : "97EFF3028677894BDD4F9AC53F789BEE5DF4AD86",
+          "decodable" : true,
+          "serialHex" : "0727AA47",
+          "subject" : "CN=Microsoft IT SSL SHA2,OU=Microsoft IT,O=Microsoft Corporation,L=Redmond,ST=Washington,C=US",
+          "issuer" : "CN=Baltimore CyberTrust Root,OU=CyberTrust,O=Baltimore,C=IE",
+          "validFrom" : "2014-05-07 17:04:09 UTC",
+          "validTo" : "2018-05-07 17:03:30 UTC",
+          "keyType" : "RSA",
+          "keySize" : 4096,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2016-04-23 19:12:26 UTC",
+  "serverTimeOffsetMillis" : -12480,
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    },
+    {
+      "name" : "secp384r1 (P-384)",
+      "size" : 384,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "connectionName" : "www.wikihow.com",
+  "connectionPort" : 443,
+  "SNI" : "www.wikihow.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49191,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49192,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 156,
+        "name" : "RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "FB909DFC39B5C2B683EC1C1225CDC0EB46728905",
+          "decodable" : true,
+          "serialHex" : "112159718B25FA70180864917657962643D1",
+          "subject" : "CN=j.ssl.fastly.net,O=Fastly\\, Inc.,L=San Francisco,ST=California,C=US",
+          "issuer" : "CN=GlobalSign Organization Validation CA - SHA256 - G2,O=GlobalSign nv-sa,C=BE",
+          "validFrom" : "2016-04-12 18:45:09 UTC",
+          "validTo" : "2018-03-13 14:03:22 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "j.ssl.fastly.net",
+            "*.joyfulhome.com",
+            "*.sphere.com",
+            "*.techinsider.io",
+            "a1.awin1.com",
+            "api.screenshotlayer.com",
+            "apt.dockerproject.org",
+            "billtomobile.com",
+            "*.billtomobile.com",
+            "binaryparadox.net",
+            "*.binaryparadox.net",
+            "blendle.io",
+            "*.blendle.io",
+            "boingboing.net",
+            "*.boingboing.net",
+            "cache.ruby-lang.org",
+            "cafe.com",
+            "*.cafe.com",
+            "cdn.bitspring.co",
+            "cdn.discourse.org",
+            "cdn.envelopemedia.com",
+            "cdn.followup.cc",
+            "chef.co",
+            "*.chef.co",
+            "clearbit.com",
+            "*.clearbit.com",
+            "cloudera.com",
+            "*.cloudera.com",
+            "compatiblepartners.net",
+            "*.compatiblepartners.net",
+            "content.pugpig-dev.com",
+            "*.content.pugpig-dev.com",
+            "content.pugpig.com",
+            "*.content.pugpig.com",
+            "drupal.org",
+            "*.drupal.org",
+            "drupalcontent.org",
+            "*.drupalcontent.org",
+            "e3insider.com",
+            "*.e3insider.com",
+            "eharmony.ca",
+            "*.eharmony.ca",
+            "eharmony.co.uk",
+            "*.eharmony.co.uk",
+            "eharmony.com",
+            "*.eharmony.com",
+            "eharmony.com.au",
+            "*.eharmony.com.au",
+            "elastic.co",
+            "*.elastic.co",
+            "email.optimizely.com",
+            "fs.cdn.ustudio.com",
+            "gcs.stationlocal.com",
+            "geonet.org.nz",
+            "*.geonet.org.nz",
+            "haskell.org",
+            "*.haskell.org",
+            "hbx.com",
+            "homebay.com",
+            "*.homebay.com",
+            "huggies-cdn.net",
+            "*.huggies-cdn.net",
+            "i.bitnr.com",
+            "jimcdn.com",
+            "*.jimcdn.com",
+            "jimstatic.com",
+            "*.jimstatic.com",
+            "joyfulhome.com",
+            "kampyle.com",
+            "*.kampyle.com",
+            "m.crowdleap.com",
+            "m.livingly.com",
+            "motosport.com",
+            "*.motosport.com",
+            "moviepilot.com",
+            "*.moviepilot.com",
+            "mybanktracker.com",
+            "*.mybanktracker.com",
+            "offworld.com",
+            "*.offworld.com",
+            "otoy.com",
+            "*.otoy.com",
+            "outbrain.com",
+            "*.outbrain.com",
+            "pac-12.com",
+            "*.pac-12.com",
+            "pagar.me",
+            "*.pagar.me",
+            "paidy.com",
+            "*.paidy.com",
+            "scarymommy.com",
+            "*.scarymommy.com",
+            "secure-static-fl.tagged.com",
+            "secure.independenttickets.com",
+            "seekingalpha.com",
+            "softbankworld.com",
+            "somespider.com",
+            "*.somespider.com",
+            "spongepowered.org",
+            "*.spongepowered.org",
+            "srv.adngin.com",
+            "store.hypebeast.com",
+            "stylepx.com",
+            "synapsys.us",
+            "*.synapsys.us",
+            "t.msgf-cdn.com",
+            "techinsider.io",
+            "test.softbankworld.com",
+            "thefader.com",
+            "*.thefader.com",
+            "themid.com",
+            "*.themid.com",
+            "trippng.com",
+            "*.trippng.com",
+            "tubemogul.com",
+            "*.tubemogul.com",
+            "uk.businessinsider.com",
+            "*.uk.businessinsider.com",
+            "usa.rwlivecms.com",
+            "widgets.shopifyapps.com",
+            "wikihow.com",
+            "*.wikihow.com",
+            "wizarding.world",
+            "*.wizarding.world",
+            "womenwhocode.com",
+            "*.womenwhocode.com",
+            "www.8securities.com",
+            "www.8securities.com.hk",
+            "www.crowdleap.com",
+            "www.dwin2.com",
+            "www.envelopes.com",
+            "www.givingisgorges.org",
+            "www.livingly.com",
+            "www.robertwalters-usa.com",
+            "www.robertwalters.co.uk",
+            "www.robertwalters.com",
+            "www.rticcoolers.com",
+            "www.sherpany.com",
+            "yum.dockerproject.org"
+          ]
+        },
+        {
+          "thumbprint" : "902EF2DEEB3C5B13EA4C3D5193629309E231AE55",
+          "decodable" : true,
+          "serialHex" : "040000000001444EF04247",
+          "subject" : "CN=GlobalSign Organization Validation CA - SHA256 - G2,O=GlobalSign nv-sa,C=BE",
+          "issuer" : "CN=GlobalSign Root CA,OU=Root CA,O=GlobalSign nv-sa,C=BE",
+          "validFrom" : "2014-02-20 10:00:00 UTC",
+          "validTo" : "2024-02-20 10:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    }
+  ]
+}

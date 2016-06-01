@@ -1,0 +1,393 @@
+{
+  "connectionName" : "www.theguardian.com",
+  "connectionPort" : 443,
+  "SNI" : "www.theguardian.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49191,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49192,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 156,
+        "name" : "RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "CF98F4B59A462C8544AA88EB21CDA9FC8DEA0033",
+          "decodable" : true,
+          "serialHex" : "11216BC0426A94B72A21FACBE5D311C10509",
+          "subject" : "CN=i.ssl.fastly.net,O=Fastly\\, Inc.,L=San Francisco,ST=California,C=US",
+          "issuer" : "CN=GlobalSign Organization Validation CA - SHA256 - G2,O=GlobalSign nv-sa,C=BE",
+          "validFrom" : "2016-04-05 19:10:08 UTC",
+          "validTo" : "2018-03-13 14:01:54 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "i.ssl.fastly.net",
+            "*.am-autoparts.com",
+            "*.am-autopartsqa.com",
+            "*.i.ssl.fastly.net",
+            "*.tmol.io",
+            "4ormat.com",
+            "*.4ormat.com",
+            "500px.net",
+            "*.500px.net",
+            "500px.org",
+            "*.500px.org",
+            "abtasty.com",
+            "*.abtasty.com",
+            "api.yerdle.com",
+            "biomedcentral.com",
+            "*.biomedcentral.com",
+            "bliyoo.bruna.nl",
+            "caloriecount.com",
+            "*.caloriecount.com",
+            "cdn.mmgcache.net",
+            "cleverbot.io",
+            "*.cleverbot.io",
+            "collective-media.net",
+            "*.collective-media.net",
+            "decalgirl.com",
+            "*.decalgirl.com",
+            "engagesciences.com",
+            "*.engagesciences.com",
+            "famous.co",
+            "*.famous.co",
+            "famous.org",
+            "*.famous.org",
+            "fitbit.com",
+            "*.fitbit.com",
+            "format.com",
+            "*.format.com",
+            "found.no",
+            "*.found.no",
+            "github.app.secretcdn.net",
+            "*.github.app.secretcdn.net",
+            "global-pop.tumblr.com",
+            "*.global-pop.tumblr.com",
+            "goodeggs.com",
+            "*.goodeggs.com",
+            "grindr.com",
+            "*.grindr.com",
+            "guim.co.uk",
+            "*.guim.co.uk",
+            "hackster.io",
+            "*.hackster.io",
+            "harveynichols.com",
+            "*.harveynichols.com",
+            "help.optimizely.com",
+            "huevosbuenos.com",
+            "*.huevosbuenos.com",
+            "img.society6.com",
+            "*.img.society6.com",
+            "inverse.com",
+            "*.inverse.com",
+            "kilmer.io",
+            "*.kilmer.io",
+            "kindsnacks.com",
+            "*.kindsnacks.com",
+            "learn.optimizely.com",
+            "live.cf.public.springer.com",
+            "*.live.cf.public.springer.com",
+            "logoscdn.com",
+            "*.logoscdn.com",
+            "m.au.vjukebox.com",
+            "m.ca.vjukebox.com",
+            "m.uk.vjukebox.com",
+            "m.us.vjukebox.com",
+            "meerkatapp.co",
+            "*.meerkatapp.co",
+            "modafinilcat.com",
+            "offerpop.com",
+            "*.offerpop.com",
+            "ogol.io",
+            "*.ogol.io",
+            "optimizely.com",
+            "performance.service.gov.uk",
+            "*.performance.service.gov.uk",
+            "preview.performance.service.gov.uk",
+            "*.preview.performance.service.gov.uk",
+            "production.performance.service.gov.uk",
+            "*.production.performance.service.gov.uk",
+            "q-static.com",
+            "*.q-static.com",
+            "qa.cashstar.com",
+            "*.qa.cashstar.com",
+            "reissdev.com",
+            "*.reissdev.com",
+            "s.sellocdn.com",
+            "*.s.sellocdn.com",
+            "s2.tmol.co",
+            "scanscout2.com",
+            "*.scanscout2.com",
+            "screenshot.click",
+            "*.screenshot.click",
+            "skedge.me",
+            "*.skedge.me",
+            "snapshot.raintank.io",
+            "spotfront.mathtag.com",
+            "springer.com",
+            "*.springer.com",
+            "squarecdn.com",
+            "*.squarecdn.com",
+            "staging.performance.service.gov.uk",
+            "*.staging.performance.service.gov.uk",
+            "static.awesomeom.com",
+            "streamable.com",
+            "*.streamable.com",
+            "subscribe.theguardian.com",
+            "teamtreehouse.com",
+            "*.teamtreehouse.com",
+            "theguardian.com",
+            "*.theguardian.com",
+            "timeout.cat",
+            "*.timeout.cat",
+            "timeout.com",
+            "*.timeout.com",
+            "timeout.es",
+            "*.timeout.es",
+            "timeout.fr",
+            "*.timeout.fr",
+            "timeoutkorea.kr",
+            "*.timeoutkorea.kr",
+            "timeoutmexico.mx",
+            "*.timeoutmexico.mx",
+            "tmol.co",
+            "*.tmol.co",
+            "u.sellocdn.com",
+            "*.u.sellocdn.com",
+            "vjukebox.com",
+            "*.vjukebox.com",
+            "wepay.com",
+            "*.wepay.com",
+            "wepayapi.com",
+            "*.wepayapi.com",
+            "www.alarmgrid.com",
+            "www.edgee.com",
+            "www.freshbooks.com",
+            "www.graspwise.com",
+            "www.modafinilcat.com",
+            "www.moedict.tw",
+            "www.msdayofgiving.org",
+            "www.neste.com",
+            "www.optimizely.com",
+            "www.optimizelystaging.com",
+            "www.reiss.com",
+            "www1.ticketmaster.ca",
+            "www1.ticketmaster.com",
+            "xkcd.com",
+            "*.xkcd.com"
+          ]
+        },
+        {
+          "thumbprint" : "902EF2DEEB3C5B13EA4C3D5193629309E231AE55",
+          "decodable" : true,
+          "serialHex" : "040000000001444EF04247",
+          "subject" : "CN=GlobalSign Organization Validation CA - SHA256 - G2,O=GlobalSign nv-sa,C=BE",
+          "issuer" : "CN=GlobalSign Root CA,OU=Root CA,O=GlobalSign nv-sa,C=BE",
+          "validFrom" : "2014-02-20 10:00:00 UTC",
+          "validTo" : "2024-02-20 10:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    }
+  ]
+}

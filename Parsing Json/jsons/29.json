@@ -1,0 +1,274 @@
+{
+  "connectionName" : "www.live.com",
+  "connectionPort" : 443,
+  "SNI" : "www.live.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "23A4588A50543309FFEA523EDE2DBA555D2B7AFD",
+          "decodable" : true,
+          "serialHex" : "16E652C8509C73D5A133BD5D6348552B",
+          "subject" : "CN=mail.live.com,OU=Outlook Kahuna BAY-A Jun2015,O=Microsoft Corporation,STREET=1 Microsoft Way,L=Redmond,ST=Washington,2.5.4.17=#0C053938303532,C=US,2.5.4.5=#1309363030343133343835,2.5.4.15=#131450726976617465204F7267616E697A6174696F6E,1.3.6.1.4.1.311.60.2.1.2=#0C0A57617368696E67746F6E,1.3.6.1.4.1.311.60.2.1.3=#13025553",
+          "issuer" : "CN=Symantec Class 3 EV SSL CA - G3,OU=Symantec Trust Network,O=Symantec Corporation,C=US",
+          "validFrom" : "2015-06-02 00:00:00 UTC",
+          "validTo" : "2017-06-02 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "BAY002.afx.ms",
+            "BAY002.mail.live.com",
+            "bay167.afx.ms",
+            "bay167.mail.live.com",
+            "bay168.afx.ms",
+            "bay168.mail.live.com",
+            "bay169.afx.ms",
+            "bay169.mail.live.com",
+            "bay170.afx.ms",
+            "bay170.mail.live.com",
+            "bay171.afx.ms",
+            "bay171.mail.live.com",
+            "bay172.afx.ms",
+            "bay172.mail.live.com",
+            "bay173.afx.ms",
+            "bay173.mail.live.com",
+            "bay174.afx.ms",
+            "bay174.mail.live.com",
+            "bay175.afx.ms",
+            "bay175.mail.live.com",
+            "bay176.afx.ms",
+            "bay176.mail.live.com",
+            "bay177.afx.ms",
+            "bay177.mail.live.com",
+            "bay178.afx.ms",
+            "bay178.mail.live.com",
+            "bay179.afx.ms",
+            "bay179.mail.live.com",
+            "bay180.afx.ms",
+            "bay180.mail.live.com",
+            "bay181.afx.ms",
+            "bay181.mail.live.com",
+            "bay182.afx.ms",
+            "bay182.mail.live.com",
+            "bay183.afx.ms",
+            "bay183.mail.live.com",
+            "bay184.afx.ms",
+            "bay184.mail.live.com",
+            "bay185.afx.ms",
+            "bay185.mail.live.com",
+            "bay186.afx.ms",
+            "bay186.mail.live.com",
+            "contacts.live.com",
+            "dvt.mail.live.com",
+            "home.live.com",
+            "hotmail.co.jp",
+            "hotmail.co.uk",
+            "hotmail.com",
+            "hotmail.live.com",
+            "hotmail.msn.com",
+            "m.mail.live.com",
+            "mail.live.com",
+            "origin.bay002.mail.live.com",
+            "origin.bay167.mail.live.com",
+            "origin.bay168.mail.live.com",
+            "origin.bay169.mail.live.com",
+            "origin.bay170.mail.live.com",
+            "origin.bay171.mail.live.com",
+            "origin.bay172.mail.live.com",
+            "origin.bay173.mail.live.com",
+            "origin.bay174.mail.live.com",
+            "origin.bay175.mail.live.com",
+            "origin.bay176.mail.live.com",
+            "origin.bay177.mail.live.com",
+            "origin.bay178.mail.live.com",
+            "origin.bay179.mail.live.com",
+            "origin.bay180.mail.live.com",
+            "origin.bay181.mail.live.com",
+            "origin.bay182.mail.live.com",
+            "origin.bay183.mail.live.com",
+            "origin.bay184.mail.live.com",
+            "origin.bay185.mail.live.com",
+            "origin.bay186.mail.live.com",
+            "people.live.com",
+            "www.hotmail.com",
+            "www.hotmail.msn.com",
+            "www.live.com",
+            "www.mail.live.com"
+          ]
+        },
+        {
+          "thumbprint" : "E3FC0AD84F2F5A83ED6F86F567F8B14B40DCBF12",
+          "decodable" : true,
+          "serialHex" : "7EE14A6F6FEFF2D37F3FAD654D3ADAB4",
+          "subject" : "CN=Symantec Class 3 EV SSL CA - G3,OU=Symantec Trust Network,O=Symantec Corporation,C=US",
+          "issuer" : "CN=VeriSign Class 3 Public Primary Certification Authority - G5,OU=(c) 2006 VeriSign\\, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign\\, Inc.,C=US",
+          "validFrom" : "2013-10-31 00:00:00 UTC",
+          "validTo" : "2023-10-30 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2016-04-23 18:44:41 UTC",
+  "serverTimeOffsetMillis" : -12998,
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    },
+    {
+      "name" : "secp384r1 (P-384)",
+      "size" : 384,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS005",
+      "text" : "Server supports RC4."
+    },
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    }
+  ]
+}

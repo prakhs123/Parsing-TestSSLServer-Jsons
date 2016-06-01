@@ -1,0 +1,334 @@
+{
+  "connectionName" : "www.hubspot.com",
+  "connectionPort" : 443,
+  "SNI" : "www.hubspot.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49192,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49191,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 157,
+        "name" : "RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 156,
+        "name" : "RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 61,
+        "name" : "RSA_WITH_AES_256_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 60,
+        "name" : "RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 3,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : true,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "8D5A197BB22CA6F2889DC06E2DEA5FE73EC94A55",
+          "decodable" : true,
+          "serialHex" : "0283507D2C8FD1F0B109C1C266E0ACBE",
+          "subject" : "CN=www.hubspot.com,O=HubSpot\\, Inc.,L=Cambridge,ST=Massachusetts,C=US",
+          "issuer" : "CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "validFrom" : "2014-12-09 00:00:00 UTC",
+          "validTo" : "2017-03-15 12:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "www.hubspot.com",
+            "blog.hubspot.com",
+            "js.hubspot.com",
+            "js.hubspotqa.com",
+            "static.hubspot.com",
+            "static.hubspotqa.com",
+            "static2cdn.hubspot.com",
+            "cdn1.hubspot.com",
+            "sites-auth.hubspot.com",
+            "info.hubspot.com",
+            "cdn1.hubspotqa.com",
+            "cdn2.hubspot.net",
+            "cdn2.hubspotqa.com",
+            "no-cache.hubspot.com",
+            "no-cache.hubspotqa.com",
+            "static2cdn.hubspot.net",
+            "js.hsforms.net",
+            "js.hsforms.com",
+            "js.hs-analytics.net",
+            "js.hs-analytics.com",
+            "js.hscta.net",
+            "js.hscta.com",
+            "static.hsstatic.net",
+            "static.hsstatic.com",
+            "static.hsappstatic.net",
+            "static.hsappstatic.com",
+            "hubspot.com",
+            "designers.hubspot.com",
+            "forms.hubspot.de",
+            "forms.hubspot.com",
+            "login.hubspot.com",
+            "app.hubspot.com",
+            "getsidekick.com",
+            "www.getsidekick.com",
+            "getsignals.com",
+            "www.getsignals.com",
+            "wiki.hubspotcentral.com",
+            "issues.hubspotcentral.com",
+            "app.hubspotqa.com",
+            "login.hubspotqa.com",
+            "knowledge.hubspot.com",
+            "developers.hubspot.com",
+            "api.hubapi.com",
+            "api.hubapiqa.com",
+            "internal.hsappstatic.net",
+            "academy.hubspot.com",
+            "www.inbound.com",
+            "2014.inbound.com",
+            "2013.inbound.com",
+            "2012.inbound.com",
+            "inbound.com",
+            "click.hubspotanalytics.com",
+            "usagetracking.hubapi.com",
+            "leadin.com",
+            "www.leadin.com",
+            "help.hubspot.com",
+            "sales.hubspot.com",
+            "leadin.hubspot.com",
+            "www.hubspot.es",
+            "hubspot.es",
+            "www.hubspot.jp",
+            "hubspot.jp",
+            "www.hubspot.fr",
+            "hubspot.fr",
+            "www.hubspot.de",
+            "hubspot.de",
+            "offers.hubspot.com",
+            "product.hubspot.com",
+            "legal.hubspot.com",
+            "legal.inbound.com",
+            "marketing.grader.com",
+            "dl.getsidekick.com",
+            "status.hubspot.com",
+            "trust.hubspot.com",
+            "research.hubspot.com"
+          ]
+        },
+        {
+          "thumbprint" : "A031C46782E6E6C662C2C87C76DA9AA62CCABD8E",
+          "decodable" : true,
+          "serialHex" : "04E1E7A4DC5CF2F36DC02B42B85D159F",
+          "subject" : "CN=DigiCert SHA2 High Assurance Server CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "issuer" : "CN=DigiCert High Assurance EV Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "validFrom" : "2013-10-22 12:00:00 UTC",
+          "validTo" : "2028-10-22 12:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        },
+        {
+          "thumbprint" : "5FB7EE0633E259DBAD0C4C9AE6D38F1A61C7DC25",
+          "decodable" : true,
+          "serialHex" : "02AC5C266A0B409B8F0B79F2AE462577",
+          "subject" : "CN=DigiCert High Assurance EV Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "issuer" : "CN=DigiCert High Assurance EV Root CA,OU=www.digicert.com,O=DigiCert Inc,C=US",
+          "validFrom" : "2006-11-10 00:00:00 UTC",
+          "validTo" : "2031-11-10 00:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-1",
+          "selfIssued" : true
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : false,
+  "minECSize" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "PV004",
+      "text" : "Server does not tolerate extensions."
+    },
+    {
+      "id" : "RN001",
+      "text" : "Server does not support secure renegotiation."
+    }
+  ]
+}

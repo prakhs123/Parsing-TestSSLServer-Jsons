@@ -1,0 +1,16 @@
+{
+  "connectionName" : "www.torrentz.in",
+  "connectionPort" : 443,
+  "SNI" : "www.torrentz.in",
+  "ssl3Chains" : [
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : false,
+  "warnings" : [
+    {
+      "id" : "RN001",
+      "text" : "Server does not support secure renegotiation."
+    }
+  ]
+}

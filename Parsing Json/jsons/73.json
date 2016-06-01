@@ -1,0 +1,112 @@
+{
+  "connectionName" : "www.secureserver.net",
+  "connectionPort" : 443,
+  "SNI" : "www.secureserver.net",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 3,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "32791B57BF067E680B14A64FA9DBD7554D2F5994",
+          "decodable" : true,
+          "serialHex" : "27B78B2246C9C1",
+          "subject" : "CN=*.secureserver.net,O=Special Domain Services\\, LLC,L=Scottsdale,ST=Arizona,C=US",
+          "issuer" : "CN=Starfield Secure Certificate Authority - G2,OU=http://certs.starfieldtech.com/repository/,O=Starfield Technologies\\, Inc.,L=Scottsdale,ST=Arizona,C=US",
+          "validFrom" : "2014-08-25 16:21:59 UTC",
+          "validTo" : "2017-08-25 16:21:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "*.secureserver.net",
+            "secureserver.net"
+          ]
+        },
+        {
+          "thumbprint" : "7EDC376DCFD45E6DDF082C160DF6AC21835B95D4",
+          "decodable" : true,
+          "serialHex" : "07",
+          "subject" : "CN=Starfield Secure Certificate Authority - G2,OU=http://certs.starfieldtech.com/repository/,O=Starfield Technologies\\, Inc.,L=Scottsdale,ST=Arizona,C=US",
+          "issuer" : "CN=Starfield Root Certificate Authority - G2,O=Starfield Technologies\\, Inc.,L=Scottsdale,ST=Arizona,C=US",
+          "validFrom" : "2011-05-03 07:00:00 UTC",
+          "validTo" : "2031-05-03 07:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        },
+        {
+          "thumbprint" : "9565B778C8A50EB4FEFD45C8A658DDE2411EAD0A",
+          "decodable" : true,
+          "serialHex" : "391484",
+          "subject" : "CN=Starfield Root Certificate Authority - G2,O=Starfield Technologies\\, Inc.,L=Scottsdale,ST=Arizona,C=US",
+          "issuer" : "OU=Starfield Class 2 Certification Authority,O=Starfield Technologies\\, Inc.,C=US",
+          "validFrom" : "2014-01-01 07:00:00 UTC",
+          "validTo" : "2031-05-30 07:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2016-04-23 19:36:08 UTC",
+  "serverTimeOffsetMillis" : -13333,
+  "secureRenegotiation" : true,
+  "warnings" : [
+    {
+      "id" : "CS005",
+      "text" : "Server supports RC4."
+    },
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "connectionName" : "www.denaiconnect.co.in",
+  "connectionPort" : 443,
+  "SNI" : "www.denaiconnect.co.in",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 9,
+        "name" : "RSA_WITH_DES_CBC_SHA",
+        "strength" : 2,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 3,
+        "name" : "RSA_EXPORT_WITH_RC4_40_MD5",
+        "strength" : 1,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 6,
+        "name" : "RSA_EXPORT_WITH_RC2_CBC_40_MD5",
+        "strength" : 1,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 3,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-1",
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "BC49A8F11945F5F660BC98BA54F87A6DB4D97EF8",
+          "decodable" : true,
+          "serialHex" : "71B298DE29196A1E4CD802F114B24BE7",
+          "subject" : "CN=www.denaiconnect.co.in,OU=Data Center,O=Dena Bank,L=Mumbai,ST=Maharashtra,C=IN,2.5.4.5=#1311476F7665726E6D656E7420456E74697479,2.5.4.15=#1311476F7665726E6D656E7420456E74697479,1.3.6.1.4.1.311.60.2.1.3=#1302494E",
+          "issuer" : "CN=Symantec Class 3 EV SSL CA - G3,OU=Symantec Trust Network,O=Symantec Corporation,C=US",
+          "validFrom" : "2015-03-26 00:00:00 UTC",
+          "validTo" : "2017-04-06 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "www.denaiconnect.co.in",
+            "denaiconnect.co.in"
+          ]
+        },
+        {
+          "thumbprint" : "E3FC0AD84F2F5A83ED6F86F567F8B14B40DCBF12",
+          "decodable" : true,
+          "serialHex" : "7EE14A6F6FEFF2D37F3FAD654D3ADAB4",
+          "subject" : "CN=Symantec Class 3 EV SSL CA - G3,OU=Symantec Trust Network,O=Symantec Corporation,C=US",
+          "issuer" : "CN=VeriSign Class 3 Public Primary Certification Authority - G5,OU=(c) 2006 VeriSign\\, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign\\, Inc.,C=US",
+          "validFrom" : "2013-10-31 00:00:00 UTC",
+          "validTo" : "2023-10-30 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        },
+        {
+          "thumbprint" : "F4A80A0CD1E6CF190B8CBC6FBC991711D482C9D0",
+          "decodable" : true,
+          "serialHex" : "35973187F3873A07327ECE580C9B7EDA",
+          "subject" : "CN=VeriSign Class 3 Public Primary Certification Authority - G5,OU=(c) 2006 VeriSign\\, Inc. - For authorized use only,OU=VeriSign Trust Network,O=VeriSign\\, Inc.,C=US",
+          "issuer" : "OU=Class 3 Public Primary Certification Authority,O=VeriSign\\, Inc.,C=US",
+          "validFrom" : "2006-11-08 00:00:00 UTC",
+          "validTo" : "2021-11-07 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-1",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2016-05-29 11:29:46 UTC",
+  "serverTimeOffsetMillis" : -202356,
+  "secureRenegotiation" : true,
+  "warnings" : [
+    {
+      "id" : "CS002",
+      "text" : "Server supports very weak cipher suites (40 bits)."
+    },
+    {
+      "id" : "CS003",
+      "text" : "Server supports weak cipher suites (56 bits)."
+    },
+    {
+      "id" : "CS005",
+      "text" : "Server supports RC4."
+    },
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "XC001",
+      "text" : "Server certificate was signed with a weak/deprecated/unknown hash function."
+    }
+  ]
+}

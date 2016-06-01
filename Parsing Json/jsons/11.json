@@ -1,0 +1,586 @@
+{
+  "connectionName" : "www.blogspot.in",
+  "connectionPort" : 443,
+  "SNI" : "www.blogspot.in",
+  "SSLv3" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49169,
+        "name" : "ECDHE_RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49169,
+        "name" : "ECDHE_RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "complex",
+    "suites" : [
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 60,
+        "name" : "RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 156,
+        "name" : "RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 157,
+        "name" : "RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49169,
+        "name" : "ECDHE_RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49191,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49192,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 52243,
+        "name" : "ECDHE_RSA_WITH_CHACHA20_POLY1305_OLD",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 52392,
+        "name" : "ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 3,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-1",
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "358EFFD915E54CB4DE2F923D679258595383283E",
+          "decodable" : true,
+          "serialHex" : "4D3889E58E2358AF",
+          "subject" : "CN=misc-sni.google.com,O=Google Inc,L=Mountain View,ST=California,C=US",
+          "issuer" : "CN=Google Internet Authority G2,O=Google Inc,C=US",
+          "validFrom" : "2016-04-07 08:42:58 UTC",
+          "validTo" : "2016-06-30 08:20:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "misc-sni.google.com",
+            "*.1ucrs.com",
+            "*.a.alpha.blogger.com",
+            "*.a.alpha.blogspot.com",
+            "*.abc.xyz",
+            "*.adsensecustomsearchads.com",
+            "*.ampproject.net",
+            "*.ampproject.org",
+            "*.androidify.com",
+            "*.app.goo.gl",
+            "*.au.daily.alpha.blogspot.com",
+            "*.au.gaia.alpha.blogspot.com",
+            "*.au.prod.alpha.blogspot.com",
+            "*.au.weekly.alpha.blogspot.com",
+            "*.b.alpha.blogger.com",
+            "*.b.alpha.blogspot.com",
+            "*.blogspot.ae",
+            "*.blogspot.al",
+            "*.blogspot.am",
+            "*.blogspot.ba",
+            "*.blogspot.be",
+            "*.blogspot.bg",
+            "*.blogspot.ca",
+            "*.blogspot.ch",
+            "*.blogspot.cl",
+            "*.blogspot.co.at",
+            "*.blogspot.co.id",
+            "*.blogspot.co.il",
+            "*.blogspot.co.ke",
+            "*.blogspot.co.nz",
+            "*.blogspot.co.uk",
+            "*.blogspot.co.za",
+            "*.blogspot.com.ar",
+            "*.blogspot.com.au",
+            "*.blogspot.com.br",
+            "*.blogspot.com.by",
+            "*.blogspot.com.co",
+            "*.blogspot.com.cy",
+            "*.blogspot.com.ee",
+            "*.blogspot.com.eg",
+            "*.blogspot.com.es",
+            "*.blogspot.com.mt",
+            "*.blogspot.com.ng",
+            "*.blogspot.com.tr",
+            "*.blogspot.com.uy",
+            "*.blogspot.cz",
+            "*.blogspot.de",
+            "*.blogspot.dk",
+            "*.blogspot.fi",
+            "*.blogspot.fr",
+            "*.blogspot.gr",
+            "*.blogspot.hk",
+            "*.blogspot.hr",
+            "*.blogspot.hu",
+            "*.blogspot.ie",
+            "*.blogspot.in",
+            "*.blogspot.is",
+            "*.blogspot.it",
+            "*.blogspot.jp",
+            "*.blogspot.kr",
+            "*.blogspot.li",
+            "*.blogspot.lt",
+            "*.blogspot.lu",
+            "*.blogspot.md",
+            "*.blogspot.mk",
+            "*.blogspot.mx",
+            "*.blogspot.my",
+            "*.blogspot.nl",
+            "*.blogspot.no",
+            "*.blogspot.pe",
+            "*.blogspot.pt",
+            "*.blogspot.qa",
+            "*.blogspot.ro",
+            "*.blogspot.rs",
+            "*.blogspot.ru",
+            "*.blogspot.se",
+            "*.blogspot.sg",
+            "*.blogspot.si",
+            "*.blogspot.sk",
+            "*.blogspot.sn",
+            "*.blogspot.tw",
+            "*.blogspot.ug",
+            "*.blogspot.vn",
+            "*.brocaproject.com",
+            "*.c.alpha.blogger.com",
+            "*.c.alpha.blogspot.com",
+            "*.culturalspot.org",
+            "*.d.alpha.blogger.com",
+            "*.d.alpha.blogspot.com",
+            "*.daily.alpha.blogger.com",
+            "*.daily.alpha.blogspot.com",
+            "*.dev.google-syndication.com",
+            "*.digitalassetlinks.org",
+            "*.digitalnewsinitiative.com",
+            "*.domains.google",
+            "*.e.alpha.blogger.com",
+            "*.e.alpha.blogspot.com",
+            "*.earlydays.google",
+            "*.earthengine.google.com",
+            "*.fiber.google.com",
+            "*.friendconnect.google.com",
+            "*.gaia.alpha.blogger.com",
+            "*.gaia.alpha.blogspot.com",
+            "*.get.how",
+            "*.golang.org",
+            "*.google-syndication.com",
+            "*.googleblog.com",
+            "*.googlecert.net",
+            "*.in.daily.alpha.blogspot.com",
+            "*.in.gaia.alpha.blogspot.com",
+            "*.in.prod.alpha.blogspot.com",
+            "*.in.weekly.alpha.blogspot.com",
+            "*.liftware.com",
+            "*.liftware.jp",
+            "*.mapmaker.google.com",
+            "*.picnik.com",
+            "*.prod.alpha.blogger.com",
+            "*.prod.alpha.blogspot.com",
+            "*.registry-qa.google",
+            "*.registry-sandbox.google",
+            "*.registry.google",
+            "*.sandbox.blogger.com",
+            "*.sandbox.blogspot.com",
+            "*.staging.google-syndication.com",
+            "*.tiltbrush.com",
+            "*.weekly.alpha.blogger.com",
+            "*.weekly.alpha.blogspot.com",
+            "*.whosdown.com",
+            "*.xn--9kr7l.com",
+            "*.xn--flw351e.com",
+            "*.xn--ggle-55da.com",
+            "*.xn--gogl-0nd52e.com",
+            "*.xn--gogl-1nd42e.com",
+            "*.xn--ngstr-lra8j.com",
+            "*.zynamics.com",
+            "1ucrs.com",
+            "abc.xyz",
+            "adsense.com",
+            "adsensecustomsearchads.com",
+            "adsenseformobileapps.com",
+            "ampproject.net",
+            "ampproject.org",
+            "androidify.com",
+            "app.goo.gl",
+            "brocaproject.com",
+            "bugs.webrtc.org",
+            "code.webrtc.org",
+            "com.google",
+            "culturalspot.org",
+            "dg-meta.video.google.com",
+            "digitalassetlinks.org",
+            "digitalnewsinitiative.com",
+            "domains.google",
+            "earlydays.google",
+            "gapi.waze.com",
+            "get.how",
+            "golang.org",
+            "googleblog.com",
+            "googlecert.net",
+            "googlestore.com",
+            "lers.google",
+            "liftware.com",
+            "liftware.jp",
+            "picnik.com",
+            "registry-qa.google",
+            "registry-sandbox.google",
+            "registry.google",
+            "thegooglestore.com",
+            "tiltbrush.com",
+            "whosdown.com",
+            "www.adsense.com",
+            "www.googlestore.com",
+            "www.thegooglestore.com",
+            "xn--9kr7l.com",
+            "xn--flw351e.com",
+            "xn--ggle-55da.com",
+            "xn--gogl-0nd52e.com",
+            "xn--gogl-1nd42e.com",
+            "xn--ngstr-lra8j.com",
+            "zynamics.com"
+          ]
+        },
+        {
+          "thumbprint" : "178F7E93A74ED73D88C29042220B9AE6E4B371CD",
+          "decodable" : true,
+          "serialHex" : "023A83",
+          "subject" : "CN=Google Internet Authority G2,O=Google Inc,C=US",
+          "issuer" : "CN=GeoTrust Global CA,O=GeoTrust Inc.,C=US",
+          "validFrom" : "2013-04-05 15:15:56 UTC",
+          "validTo" : "2016-12-31 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        },
+        {
+          "thumbprint" : "7359755C6DF9A0ABC3060BCE369564C8EC4542A3",
+          "decodable" : true,
+          "serialHex" : "12BBE6",
+          "subject" : "CN=GeoTrust Global CA,O=GeoTrust Inc.,C=US",
+          "issuer" : "OU=Equifax Secure Certificate Authority,O=Equifax,C=US",
+          "validFrom" : "2002-05-21 04:00:00 UTC",
+          "validTo" : "2018-08-21 04:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-1",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2016-04-23 18:19:25 UTC",
+  "serverTimeOffsetMillis" : -12462,
+  "secureRenegotiation" : true,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : false
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS005",
+      "text" : "Server supports RC4."
+    },
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "PV003",
+      "text" : "Server supports SSL 3.0."
+    },
+    {
+      "id" : "XC001",
+      "text" : "Server certificate was signed with a weak/deprecated/unknown hash function."
+    }
+  ]
+}

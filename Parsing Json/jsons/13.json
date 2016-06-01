@@ -1,0 +1,305 @@
+{
+  "connectionName" : "www.snapdeal.com",
+  "connectionPort" : 443,
+  "SNI" : "www.snapdeal.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49192,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49191,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 157,
+        "name" : "RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 156,
+        "name" : "RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 61,
+        "name" : "RSA_WITH_AES_256_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 60,
+        "name" : "RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "27AD6F672BCA58FAFE6AF94B70D6043A8F6A85F8",
+          "decodable" : true,
+          "serialHex" : "4C5F9244FF1EE62ED4A2753BA9E2B48F",
+          "subject" : "CN=www.snapdeal.com,OU=IT,O=Jasper Infotech Pvt. Ltd.,L=New Delhi,ST=Delhi,C=IN",
+          "issuer" : "CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US",
+          "validFrom" : "2015-11-27 00:00:00 UTC",
+          "validTo" : "2017-02-25 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "sa2.sdlcdn.com",
+            "test.snapdeal.com",
+            "qan3.sdlcdn.com",
+            "qai1.sdlcdn.com",
+            "i4.sdlcdn.com",
+            "qai4.sdlcdn.com",
+            "re4.sdlcdn.com",
+            "i1.sdlcdn.com",
+            "n.sdlcdn.com",
+            "i3.sdlcdn.com",
+            "sa3.sdlcdn.com",
+            "n1.sdlcdn.com",
+            "xhr1.sdlcdn.com",
+            "sa1.sdlcdn.com",
+            "re.sdlcdn.com",
+            "qabrands.sdlcdn.com",
+            "brands.sdlcdn.com",
+            "sa.sdlcdn.com",
+            "qai2.sdlcdn.com",
+            "xhr2.sdlcdn.com",
+            "qasa1.sdlcdn.com",
+            "re1.sdlcdn.com",
+            "i2.sdlcdn.com",
+            "brandapp.snapdeal.com",
+            "qan2.sdlcdn.com",
+            "ug.snapdeal.com",
+            "brands3.sdlcdn.com",
+            "qa.snapdeal.com",
+            "qasa2.sdlcdn.com",
+            "snapdeal.com",
+            "qabrands1.sdlcdn.com",
+            "n2.sdlcdn.com",
+            "qan1.sdlcdn.com",
+            "qabrands3.sdlcdn.com",
+            "xhr.sdlcdn.com",
+            "qabrands5.sdlcdn.com",
+            "realestate.snapdeal.com",
+            "n3.sdlcdn.com",
+            "re3.sdlcdn.com",
+            "n4.sdlcdn.com",
+            "qai3.sdlcdn.com",
+            "i.sdlcdn.com",
+            "qasa.sdlcdn.com",
+            "brands1.sdlcdn.com",
+            "sa4.sdlcdn.com",
+            "qan4.sdlcdn.com",
+            "staging.snapdeal.com",
+            "r.sdlcdn.com",
+            "xhr4.sdlcdn.com",
+            "re2.sdlcdn.com",
+            "qaapi.snapdeal.com",
+            "release.snapdeal.com",
+            "brands4.sdlcdn.com",
+            "qasa4.sdlcdn.com",
+            "m.snapdeal.com",
+            "qabrands4.sdlcdn.com",
+            "xhr3.sdlcdn.com",
+            "mobqa.snapdeal.com",
+            "qabrands2.sdlcdn.com",
+            "brands2.sdlcdn.com",
+            "qasa3.sdlcdn.com",
+            "mobileapi.snapdeal.com",
+            "ads.snapdeal.com",
+            "qasnaplite.snapdeal.com",
+            "dev.snapdeal.com",
+            "www.snapdeal.com"
+          ]
+        },
+        {
+          "thumbprint" : "5AEAEE3F7F2A9449CEBAFEEC68FDD184F20124A7",
+          "decodable" : true,
+          "serialHex" : "023A6F",
+          "subject" : "CN=GeoTrust SSL CA - G3,O=GeoTrust Inc.,C=US",
+          "issuer" : "CN=GeoTrust Global CA,O=GeoTrust Inc.,C=US",
+          "validFrom" : "2013-11-05 21:36:50 UTC",
+          "validTo" : "2022-05-20 21:36:50 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    }
+  ]
+}

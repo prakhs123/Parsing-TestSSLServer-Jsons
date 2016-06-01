@@ -1,0 +1,154 @@
+{
+  "connectionName" : "www.nytimes.com",
+  "connectionPort" : 443,
+  "SNI" : "www.nytimes.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "client",
+    "suites" : [
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 3,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256",
+        "SHA-384"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "C3CFFA00AF3E7DB6EF8A75CBF615A6DC36706B6E",
+          "decodable" : true,
+          "serialHex" : "0986F2C6DE5E6C2F8650D2A1BB20F858",
+          "subject" : "CN=nytimes.com,OU=PositiveSSL Multi-Domain,OU=Domain Control Validated",
+          "issuer" : "CN=COMODO RSA Domain Validation Secure Server CA,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+          "validFrom" : "2015-05-21 00:00:00 UTC",
+          "validTo" : "2018-05-20 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "nytimes.com",
+            "*.ewr1.nytimes.com",
+            "*.lga1.nytimes.com",
+            "*.nytimes.com",
+            "*.prd.ewr1.nytimes.com",
+            "*.prd.lga1.nytimes.com",
+            "*.prd.nytimes.com",
+            "*.prd.sea1.nytimes.com",
+            "*.sea1.nytimes.com"
+          ]
+        },
+        {
+          "thumbprint" : "339CDD57CFD5B141169B615FF31428782D1DA639",
+          "decodable" : true,
+          "serialHex" : "2B2E6EEAD975366C148A6EDBA37C8C07",
+          "subject" : "CN=COMODO RSA Domain Validation Secure Server CA,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+          "issuer" : "CN=COMODO RSA Certification Authority,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+          "validFrom" : "2014-02-12 00:00:00 UTC",
+          "validTo" : "2029-02-11 23:59:59 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-384",
+          "selfIssued" : false
+        },
+        {
+          "thumbprint" : "F5AD0BCC1AD56CD150725B1C866C30AD92EF21B0",
+          "decodable" : true,
+          "serialHex" : "2766EE56EB49F38EABD770A2FC84DE22",
+          "subject" : "CN=COMODO RSA Certification Authority,O=COMODO CA Limited,L=Salford,ST=Greater Manchester,C=GB",
+          "issuer" : "CN=AddTrust External CA Root,OU=AddTrust External TTP Network,O=AddTrust AB,C=SE",
+          "validFrom" : "2000-05-30 10:48:38 UTC",
+          "validTo" : "2020-05-30 10:48:38 UTC",
+          "keyType" : "RSA",
+          "keySize" : 4096,
+          "signHash" : "SHA-384",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2016-04-24 02:51:55 UTC",
+  "serverTimeOffsetMillis" : -94901,
+  "secureRenegotiation" : false,
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "PV001",
+      "text" : "Server needs short ClientHello."
+    },
+    {
+      "id" : "PV004",
+      "text" : "Server does not tolerate extensions."
+    },
+    {
+      "id" : "RN001",
+      "text" : "Server does not support secure renegotiation."
+    }
+  ]
+}

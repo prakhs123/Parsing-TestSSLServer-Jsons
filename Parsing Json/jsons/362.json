@@ -1,0 +1,384 @@
+{
+  "connectionName" : "www.entrepreneur.com",
+  "connectionPort" : 443,
+  "SNI" : "www.entrepreneur.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.1" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.2" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 49199,
+        "name" : "ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49200,
+        "name" : "ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49191,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49192,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA384",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49171,
+        "name" : "ECDHE_RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 49172,
+        "name" : "ECDHE_RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : true,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 156,
+        "name" : "RSA_WITH_AES_128_GCM_SHA256",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 2,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "935B21DA68F8295159C697B41EDC442E074B7F01",
+          "decodable" : true,
+          "serialHex" : "11215AC22342345BFE2B573D3EB50A81FD51",
+          "subject" : "CN=k.ssl.fastly.net,O=Fastly\\, Inc.,L=San Francisco,ST=California,C=US",
+          "issuer" : "CN=GlobalSign Organization Validation CA - SHA256 - G2,O=GlobalSign nv-sa,C=BE",
+          "validFrom" : "2016-04-12 18:44:14 UTC",
+          "validTo" : "2018-08-07 18:03:03 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "k.ssl.fastly.net",
+            "*.acast.com",
+            "*.adele.com",
+            "*.bitconveyor.com",
+            "*.bookatiger.com",
+            "*.businessinsider.de",
+            "*.cache.pointinside.com",
+            "*.cargurus.com",
+            "*.cdn.getfeedback.com",
+            "*.cdn.schoology.com",
+            "*.content.pugpig-stage.com",
+            "*.dips.video",
+            "*.duchesne.us",
+            "*.entrepreneur.com",
+            "*.fastlyse.net",
+            "*.go-mpulse.net",
+            "*.hashicorp.com",
+            "*.lionribbon.com",
+            "*.mensjournal.com",
+            "*.mirumagency.com",
+            "*.plot.ly",
+            "*.popkey.co",
+            "*.resrc.it",
+            "*.rollingstone.com",
+            "*.schoology.com",
+            "*.soasta.com",
+            "*.staging.schoology.com",
+            "*.timeanddate.com",
+            "*.tradecfdpro.com",
+            "*.traitify.com",
+            "*.upthere.com",
+            "*.usmagazine.com",
+            "*.vice.com",
+            "*.wennermedia.com",
+            "*.winehq.org",
+            "*.woofound.me",
+            "*.youversionapi.com",
+            "*.zdigital.com.au",
+            "a.tgcdn.net",
+            "actionsprout.io",
+            "api.dubtrack.fm",
+            "api.raventech.cn",
+            "app.getambassador.com",
+            "archive.gazzang.com",
+            "archives.streamsets.com",
+            "arrow-dev.banksimple.com",
+            "arrow.simple.com",
+            "assets.fl.adicdn.com",
+            "assets.pipelinedeals.com",
+            "cargurus.co.uk",
+            "cdn.getambassador.com",
+            "cdn.hotdoc.com.au",
+            "cdn.kernel.org",
+            "code.dev-guardianapis.com",
+            "*.code.dev-guardianapis.com",
+            "consul.io",
+            "content.newsbound.com",
+            "corebine.com",
+            "device.oddworks.io",
+            "dips.video",
+            "distractify.com",
+            "docops-temp.ca.com",
+            "docs.vagrantup.com",
+            "edw.edmunds.com",
+            "endpoint.edmunds-media.com",
+            "entrepreneur.com",
+            "gifs.com",
+            "*.gifs.com",
+            "gifyoutube.com",
+            "*.gifyoutube.com",
+            "hashiconf.com",
+            "hashiconf.eu",
+            "hashiconfeu.com",
+            "hashicorp.com",
+            "hf-alpha.fatline.io",
+            "image-service.edmunds-media.com",
+            "images.fl.adicdn.com",
+            "img.triggermail.io",
+            "lagrangesystems.net",
+            "*.lagrangesystems.net",
+            "licdn.com",
+            "*.licdn.com",
+            "lionribbon.com",
+            "lt.thinkgeek.com",
+            "media.ed.edmunds-media.com",
+            "mensjournal.com",
+            "mirumagency.com",
+            "mopidy.com",
+            "*.mopidy.com",
+            "mumble.info",
+            "*.mumble.info",
+            "nomadproject.io",
+            "openmrs.org",
+            "*.openmrs.org",
+            "ottoproject.io",
+            "packer.io",
+            "popkey.co",
+            "qa.dev-guardianapis.com",
+            "*.qa.dev-guardianapis.com",
+            "readthedocs.org",
+            "*.readthedocs.org",
+            "report-ads-to.pnsandbox.com",
+            "report-ads-to.pubnation.com",
+            "rollingstone.com",
+            "script.i-parcel.com",
+            "serfdom.io",
+            "services.edmunds-media.com",
+            "stacker.cc",
+            "*.stacker.cc",
+            "staging.actionsprout.io",
+            "staging.schoology.com",
+            "static.ed.edmunds-media.com",
+            "terraform.io",
+            "theoutbound.com",
+            "tradecfdpro.com",
+            "u.jimdo.com",
+            "upthere.com",
+            "usmagazine.com",
+            "vagrantup.com",
+            "vaultproject.io",
+            "wennermedia.com",
+            "www.consul.io",
+            "www.distractify.com",
+            "www.edmunds.com",
+            "www.egg-japan.com",
+            "www.estudiabetes.org",
+            "www.hashiconf.com",
+            "www.hashiconf.eu",
+            "www.hashiconfeu.com",
+            "www.itsmgb2uat-fastly.ito.unisys.com",
+            "www.monkeytest1.co.uk",
+            "www.nomadproject.io",
+            "www.ottoproject.io",
+            "www.packer.io",
+            "www.passivetotal.org",
+            "www.serfdom.io",
+            "www.sitespeed.io",
+            "www.spokeo.com",
+            "www.supportadultliteracy.org",
+            "www.terraform.io",
+            "www.timeout.jp",
+            "www.tudiabetes.org",
+            "www.vagrantup.com",
+            "www.vaultproject.io",
+            "www.wistia.com"
+          ]
+        },
+        {
+          "thumbprint" : "902EF2DEEB3C5B13EA4C3D5193629309E231AE55",
+          "decodable" : true,
+          "serialHex" : "040000000001444EF04247",
+          "subject" : "CN=GlobalSign Organization Validation CA - SHA256 - G2,O=GlobalSign nv-sa,C=BE",
+          "issuer" : "CN=GlobalSign Root CA,OU=Root CA,O=GlobalSign nv-sa,C=BE",
+          "validFrom" : "2014-02-20 10:00:00 UTC",
+          "validTo" : "2024-02-20 10:00:00 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : true,
+  "minECSize" : 256,
+  "minECSizeExt" : 256,
+  "namedCurves" : [
+    {
+      "name" : "secp256r1 (P-256)",
+      "size" : 256,
+      "spontaneous" : true
+    }
+  ],
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    }
+  ]
+}

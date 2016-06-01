@@ -1,0 +1,24 @@
+{
+  "connectionName" : "www.torrentunblock.com",
+  "connectionPort" : 443,
+  "SNI" : "www.torrentunblock.com",
+  "ssl3Chains" : [
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : false,
+  "warnings" : [
+    {
+      "id" : "PV001",
+      "text" : "Server needs short ClientHello."
+    },
+    {
+      "id" : "PV004",
+      "text" : "Server does not tolerate extensions."
+    },
+    {
+      "id" : "RN001",
+      "text" : "Server does not support secure renegotiation."
+    }
+  ]
+}

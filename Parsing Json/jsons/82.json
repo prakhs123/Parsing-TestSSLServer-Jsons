@@ -1,0 +1,121 @@
+{
+  "connectionName" : "www.axisbank.com",
+  "connectionPort" : 443,
+  "SNI" : "www.axisbank.com",
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 4,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : true,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "6CFC5D6178232C8638B968714A5C1851BB189190",
+          "decodable" : true,
+          "serialHex" : "189896910000000050D67DBF",
+          "subject" : "CN=www.axisbank.com,O=Axis Bank Limited,L=Mumbai,C=IN",
+          "issuer" : "CN=Entrust Certification Authority - L1K,OU=(c) 2012 Entrust\\, Inc. - for authorized use only,OU=See www.entrust.net/legal-terms,O=Entrust\\, Inc.,C=US",
+          "validFrom" : "2015-12-23 10:10:35 UTC",
+          "validTo" : "2019-03-22 10:40:34 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "www.axisbank.com",
+            "axisbank.com"
+          ]
+        },
+        {
+          "thumbprint" : "F21C12F46CDB6B2E16F09F9419CDFF328437B2D7",
+          "decodable" : true,
+          "serialHex" : "0EE94CC30000000051D37785",
+          "subject" : "CN=Entrust Certification Authority - L1K,OU=(c) 2012 Entrust\\, Inc. - for authorized use only,OU=See www.entrust.net/legal-terms,O=Entrust\\, Inc.,C=US",
+          "issuer" : "CN=Entrust Root Certification Authority - G2,OU=(c) 2009 Entrust\\, Inc. - for authorized use only,OU=See www.entrust.net/legal-terms,O=Entrust\\, Inc.,C=US",
+          "validFrom" : "2015-10-05 19:13:56 UTC",
+          "validTo" : "2030-12-05 19:43:56 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        },
+        {
+          "thumbprint" : "9E1A0C35E714B69792D090B2CC4BBA45833C3015",
+          "decodable" : true,
+          "serialHex" : "51D34044",
+          "subject" : "CN=Entrust Root Certification Authority - G2,OU=(c) 2009 Entrust\\, Inc. - for authorized use only,OU=See www.entrust.net/legal-terms,O=Entrust\\, Inc.,C=US",
+          "issuer" : "CN=Entrust Root Certification Authority,OU=(c) 2006 Entrust\\, Inc.,OU=www.entrust.net/CPS is incorporated by reference,O=Entrust\\, Inc.,C=US",
+          "validFrom" : "2014-09-22 17:14:57 UTC",
+          "validTo" : "2024-09-23 01:31:53 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false
+        },
+        {
+          "thumbprint" : "B31EB1B740E36C8402DADC37D44DF5D4674952F9",
+          "decodable" : true,
+          "serialHex" : "456B5054",
+          "subject" : "CN=Entrust Root Certification Authority,OU=(c) 2006 Entrust\\, Inc.,OU=www.entrust.net/CPS is incorporated by reference,O=Entrust\\, Inc.,C=US",
+          "issuer" : "CN=Entrust Root Certification Authority,OU=(c) 2006 Entrust\\, Inc.,OU=www.entrust.net/CPS is incorporated by reference,O=Entrust\\, Inc.,C=US",
+          "validFrom" : "2006-11-27 20:23:42 UTC",
+          "validTo" : "2026-11-27 20:53:42 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-1",
+          "selfIssued" : true
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2016-04-23 19:45:20 UTC",
+  "serverTimeOffsetMillis" : -12715,
+  "secureRenegotiation" : false,
+  "warnings" : [
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "PV001",
+      "text" : "Server needs short ClientHello."
+    },
+    {
+      "id" : "RN001",
+      "text" : "Server does not support secure renegotiation."
+    }
+  ]
+}

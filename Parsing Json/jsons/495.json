@@ -1,0 +1,20 @@
+{
+  "connectionName" : "www.hubpages.com",
+  "connectionPort" : 443,
+  "SNI" : "www.hubpages.com",
+  "ssl3Chains" : [
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "random",
+  "secureRenegotiation" : false,
+  "warnings" : [
+    {
+      "id" : "PV001",
+      "text" : "Server needs short ClientHello."
+    },
+    {
+      "id" : "RN001",
+      "text" : "Server does not support secure renegotiation."
+    }
+  ]
+}

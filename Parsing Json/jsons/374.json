@@ -1,0 +1,158 @@
+{
+  "connectionName" : "www.kar.nic.in",
+  "connectionPort" : 443,
+  "SNI" : "www.kar.nic.in",
+  "SSLv2" : {
+    "suites" : [
+      {
+        "id" : 65664,
+        "name" : "RC4_128_WITH_MD5"
+      },
+      {
+        "id" : 458944,
+        "name" : "DES_192_EDE3_CBC_WITH_MD5"
+      }
+    ]
+  },
+  "SSLv3" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "TLSv1.0" : {
+    "suiteSelection" : "server",
+    "suites" : [
+      {
+        "id" : 47,
+        "name" : "RSA_WITH_AES_128_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 53,
+        "name" : "RSA_WITH_AES_256_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 5,
+        "name" : "RSA_WITH_RC4_128_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 10,
+        "name" : "RSA_WITH_3DES_EDE_CBC_SHA",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      },
+      {
+        "id" : 4,
+        "name" : "RSA_WITH_RC4_128_MD5",
+        "strength" : 3,
+        "forwardSecrecy" : false,
+        "anonymous" : false,
+        "serverKeyType" : "RSA"
+      }
+    ]
+  },
+  "ssl2Cert" : {
+    "thumbprint" : "6BD70DD42B9C67654CB247146C16A271849248D1",
+    "decodable" : true,
+    "serialHex" : "3907889EB22944ADCEE0",
+    "subject" : "CN=www.kar.nic.in,ST=Karnataka,OU=NIC KSU,O=NIC,C=IN",
+    "issuer" : "CN=NIC sub-CA for NIC 2011,OU=Sub-CA,O=National Informatics Centre,C=IN",
+    "validFrom" : "2012-08-08 08:07:43 UTC",
+    "validTo" : "2014-08-07 08:07:43 UTC",
+    "keyType" : "RSA",
+    "keySize" : 2048,
+    "signHash" : "SHA-256",
+    "selfIssued" : false,
+    "serverNames" : [
+      "www.kar.nic.in"
+    ]
+  },
+  "ssl3Chains" : [
+    {
+      "length" : 1,
+      "decoded" : true,
+      "namesMatch" : true,
+      "includesRoot" : false,
+      "signHashes" : [
+        "SHA-256"
+      ],
+      "certificates" : [
+        {
+          "thumbprint" : "6BD70DD42B9C67654CB247146C16A271849248D1",
+          "decodable" : true,
+          "serialHex" : "3907889EB22944ADCEE0",
+          "subject" : "CN=www.kar.nic.in,ST=Karnataka,OU=NIC KSU,O=NIC,C=IN",
+          "issuer" : "CN=NIC sub-CA for NIC 2011,OU=Sub-CA,O=National Informatics Centre,C=IN",
+          "validFrom" : "2012-08-08 08:07:43 UTC",
+          "validTo" : "2014-08-07 08:07:43 UTC",
+          "keyType" : "RSA",
+          "keySize" : 2048,
+          "signHash" : "SHA-256",
+          "selfIssued" : false,
+          "serverNames" : [
+            "www.kar.nic.in"
+          ]
+        }
+      ]
+    }
+  ],
+  "deflateCompress" : false,
+  "serverTime" : "2016-04-24 02:00:43 UTC",
+  "serverTimeOffsetMillis" : -56473,
+  "secureRenegotiation" : true,
+  "warnings" : [
+    {
+      "id" : "CS005",
+      "text" : "Server supports RC4."
+    },
+    {
+      "id" : "CS006",
+      "text" : "Server supports cipher suites with no forward secrecy."
+    },
+    {
+      "id" : "PV002",
+      "text" : "Server supports SSL 2.0."
+    },
+    {
+      "id" : "PV003",
+      "text" : "Server supports SSL 3.0."
+    }
+  ]
+}
